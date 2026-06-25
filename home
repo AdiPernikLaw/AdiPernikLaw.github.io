@@ -1,0 +1,2306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pernik Law | Purpose-Driven Criminal Defense APC</title>
+    <meta name="description" content="Pernik Law APC is a top-rated California criminal defense firm led by a State-Certified Specialist. Our experienced defense attorneys serve Santa Clara, Monterey, Santa Cruz, San Mateo, and San Benito Counties.">
+    <meta name="keywords" content="criminal defense firm, California criminal defense attorney, DUI defense strategy, State-Certified Criminal Law Specialist, San Jose criminal lawyer, Salinas criminal defense attorney, Monterey criminal lawyer, Santa Cruz defense lawyer, San Benito criminal defense, San Mateo DUI attorney">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Swiper.js for Testimonials, Team, and Case Results Sliders -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <!-- STRUCTURED JSON-LD SCHEMA FOR GOOGLE AND AI SEARCH ENGINES -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Pernik Law APC",
+      "description": "Purpose-driven criminal defense law firm serving Northern and Central California, specializing in complex criminal defense, DUI, and specialized mental health and military diversion programs.",
+      "telephone": "831-612-1970",
+      "address": [
+        {
+          "@type": "PostalAddress",
+          "streetAddress": "1600 The Alameda #202",
+          "addressLocality": "San Jose",
+          "addressRegion": "CA",
+          "postalCode": "95126"
+        },
+        {
+          "@type": "PostalAddress",
+          "streetAddress": "215 W. Franklin Street 5th Floor Suite 502",
+          "addressLocality": "Monterey",
+          "addressRegion": "CA",
+          "postalCode": "93940"
+        },
+        {
+          "@type": "PostalAddress",
+          "streetAddress": "40 Central Ave Suite 4",
+          "addressLocality": "Salinas",
+          "addressRegion": "CA",
+          "postalCode": "93901"
+        }
+      ]
+    }
+    </script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: '#0A192F',
+                        gold: '#C5A059',
+                        goldDark: '#A38146',
+                        offWhite: '#F8F9FA'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Exact imports for PT Serif and Inter as instructed */
+        @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        body { 
+            font-family: 'Inter', sans-serif; 
+            scroll-behavior: smooth; 
+        }
+
+        /* Master Typography System Rule Setup */
+        .font-serif, h1, h2, h3, h4, .pt-serif-title { 
+            font-family: 'PT Serif', serif;  
+            font-weight: 700 !important;
+        }
+
+        .pt-serif-title { 
+            font-size: 20px !important;
+        }
+        
+        /* Typography classes mapping specified guidelines */
+        .typography-h1 {
+            font-family: 'PT Serif', serif;
+            font-size: 52px !important; /* Custom Desktop setting */
+            font-weight: 700 !important;
+            line-height: 1.25 !important;
+        }
+        @media (max-width: 1024px) {
+            .typography-h1 {
+                font-size: 38px !important;
+            }
+        }
+
+        .typography-h2 {
+            font-family: 'PT Serif', serif;
+            font-size: 38px !important; /* Custom Desktop setting */
+            font-weight: 700 !important;
+            line-height: 1.3 !important;
+        }
+        @media (max-width: 1024px) {
+            .typography-h2 {
+                font-size: 28px !important;
+            }
+        }
+
+        .typography-h3 {
+            font-family: 'PT Serif', serif;
+            font-size: 22px !important; /* Custom Desktop setting */
+            font-weight: 700 !important;
+            line-height: 1.4 !important;
+        }
+        @media (max-width: 1024px) {
+            .typography-h3 {
+                font-size: 20px !important; /* Custom Mobile setting */
+            }
+        }
+
+        .typography-quote {
+            font-family: 'PT Serif', serif;
+            font-size: 18px !important; /* Custom Desktop setting */
+            font-style: italic !important;
+            line-height: 1.5 !important;
+            font-weight: 400 !important; /* Return text to normal body weight (non-bold) */
+        }
+        @media (max-width: 1024px) {
+            .typography-quote {
+                font-size: 16px !important; /* Custom Mobile setting */
+            }
+        }
+
+        .typography-h4 {
+            font-family: 'PT Serif', serif;
+            font-size: 18px !important;
+            font-weight: 400 !important;
+            line-height: 1.5 !important;
+        }
+
+        .typography-label {
+            font-family: 'Inter', sans-serif;
+            font-size: 11px !important; /* Custom setting */
+            font-weight: 600 !important;
+            text-transform: uppercase !important;
+            letter-spacing: 0.2em !important;
+        }
+
+        .typography-nav {
+            font-family: 'Inter', sans-serif;
+            font-size: 14px !important;
+            font-weight: 500 !important;
+        }
+
+        .typography-body {
+            font-family: 'Inter', sans-serif;
+            font-size: 16px !important;
+            font-weight: 400 !important;
+            line-height: 1.625 !important;
+        }
+
+        .typography-small {
+            font-family: 'Inter', sans-serif;
+            font-size: 15px !important; /* Custom setting */
+            font-weight: 400 !important;
+            line-height: 1.5 !important;
+        }
+
+        /* Responsive typography for the 3-Step Method cards (15px on mobile, 16px on desktop) */
+        .method-p-text {
+            font-family: 'Inter', sans-serif;
+            font-size: 15px !important;
+            font-weight: 400 !important;
+            line-height: 1.6 !important;
+        }
+        @media (min-width: 1024px) {
+            .method-p-text {
+                font-size: 16px !important;
+            }
+        }
+
+        /* Original Layout Styling & Interactive Hover Transitions */
+        .award-logo { filter: grayscale(100%); transition: all 0.3s ease; opacity: 0.7; }
+        .award-logo:hover { filter: grayscale(0%); transform: scale(1.05); opacity: 1; }
+        
+        .method-tab.active {
+            border-bottom: 4px solid #C5A059;
+            color: #C5A059;
+            background: rgba(197, 160, 89, 0.05);
+        }
+
+        .scroll-reveal { opacity: 0; transform: translateY(20px); transition: all 0.6s ease-out; }
+        .scroll-reveal.visible { opacity: 1; transform: translateY(0); }
+
+        .swiper-pagination-bullet-active { background: #C5A059 !important; }
+        
+        .gold-gradient {
+            background: linear-gradient(135deg, #C5A059 0%, #A38146 100%);
+        }
+
+        .case-result-card {
+            border-left: 4px solid #C5A059;
+            transition: all 0.3s ease;
+            height: 100%;
+        }
+        .case-result-card:hover { transform: translateY(-5px); box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1); }
+
+        .video-overlay {
+            background: linear-gradient(0deg, rgba(10,25,47,0.8) 0%, rgba(10,25,47,0) 100%);
+        }
+
+        .team-card {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            background: #fff;
+            border: 1px solid #eee;
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        .team-card:hover {
+            border-color: #C5A059;
+            box-shadow: 0 20px 40px -15px rgba(10, 25, 47, 0.1);
+        }
+
+        /* Authority Card Animation */
+        .authority-card { 
+            padding: 2rem;
+            background: #F8F9FA;
+            border: 1px solid #eee;
+            border-radius: 0.75rem;
+            transition: all 0.4s ease; 
+        }
+        .authority-card:hover { 
+            border-color: #C5A059; 
+            transform: translateY(-5px); 
+            background: #fff; 
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.05); 
+        }
+
+        .why-box-content { overflow: hidden; transition: all 0.4s ease; }
+
+        .swiper-button-next::after, .swiper-button-prev::after {
+            font-size: 20px !important;
+            font-weight: bold;
+        }
+
+        /* Custom scrollbar hider for scrolling strip items */
+        .scrollbar-none::-webkit-scrollbar {
+            display: none;
+        }
+        .scrollbar-none {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        /* Specific Dropdown Style Overrides to match BRAND colors instead of brown */
+        .nav-dropdown-menu {
+            background-color: #0A192F; /* Brand Navy */
+            border: 1px solid rgba(197, 160, 89, 0.4); /* Brand Gold */
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+        }
+        .nav-dropdown-item {
+            color: #ffffff;
+            border-bottom: 1px solid rgba(197, 160, 89, 0.1); /* Subtly divided by gold */
+            font-family: 'Inter', sans-serif;
+            font-size: 13px !important;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+        .nav-dropdown-item:last-child {
+            border-bottom: none;
+        }
+        .nav-dropdown-item:hover {
+            background-color: rgba(197, 160, 89, 0.15); /* Soft gold tint on hover */
+            color: #C5A059; /* Brand Gold */
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900 overflow-x-hidden typography-body font-sans">
+
+    <!-- =================================================== -->
+    <!-- START PORTABLE NAVIGATION HEADER -->
+    <!-- =================================================== -->
+    <nav class="bg-navy text-white sticky top-0 z-50 border-b border-white/10 shadow-xl font-sans">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <!-- Desktop Layout (lg and up) -->
+            <div class="hidden lg:block">
+                <!-- Row 1: Identity (Left) & Action Buttons (Right) -->
+                <div class="flex justify-between items-center py-4 h-20 border-b border-white/5">
+                    
+                    <!-- Left Brand Area (Logo, Name, and Tagline) -->
+                    <div class="flex items-center space-x-4">
+                        <div class="w-12 h-12 flex items-center justify-center shrink-0">
+                            <img src="https://i.ibb.co/rGPWQRPx/72cef0c0-2a3b-409a-8672-04739b0855d7-logo.png" alt="Pernik Law Logo" style="width: 65px !important;height: auto !important;max-width: none !important;min-width: 65px !important;display: block;position: relative;z-index: 50;">  
+                        </div>
+                        <div class="flex flex-col text-left">
+                            <span class="text-2xl pt-serif-title tracking-widest uppercase leading-none text-white font-bold">
+                                Pernik <span class="text-gold">Law</span><span class="text-white text-xs" style="font-size: 12px !important;"> APC</span>
+                            </span>
+                            <span class="text-gray-400 mt-1 typography-label" style="font-size: 11px !important;">Purpose-Driven Criminal Defense</span>
+                        </div>
+                    </div>
+
+                    <!-- Right Action Buttons (Payment & Free Consultation) -->
+                    <div class="flex items-center gap-3">
+                        <!-- Make a Payment Button -->
+                        <a href="#payment-link-placeholder" class="inline-flex items-center bg-transparent border border-gold/40 text-gold hover:bg-gold hover:text-navy px-4 py-2.5 rounded-sm transition-all duration-300 font-semibold tracking-wider uppercase text-[10px] shadow-md hover:shadow-gold/20">
+                            <i class="fa-solid fa-credit-card mr-2"></i> Make a Payment
+                        </a>
+                        <!-- Free Consultation Call Button -->
+                        <a href="tel:8316121970" class="inline-flex items-center bg-gold text-navy hover:bg-goldDark hover:text-navy px-4 py-2.5 rounded-sm transition-all duration-300 font-bold tracking-wider uppercase text-[10px] shadow-lg">
+                            <i class="fa-solid fa-phone mr-2"></i> Free Consultation: 831-612-1970
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Row 2: Navigation Links Menu (Nested Multi-Level Hover Dropdowns) -->
+                <div class="py-3 flex justify-center items-center">
+                    <div class="flex items-center justify-center gap-x-8 text-white typography-nav">
+                        <a href="#" class="hover:text-gold transition border-b-2 border-transparent hover:border-gold py-1">Home</a>
+                        <a href="#" class="hover:text-gold transition border-b-2 border-transparent hover:border-gold py-1">About</a>
+                        
+                        <!-- DROP 1: Practice Areas -->
+                        <div class="relative group">
+                            <button class="flex items-center gap-1 hover:text-gold transition border-b-2 border-transparent hover:border-gold py-1 font-medium focus:outline-none">
+                                Practice Areas <i class="fa-solid fa-chevron-down text-[10px] ml-0.5"></i>
+                            </button>
+                            <!-- Drops downward absolute panel -->
+                            <div class="absolute left-0 mt-1 w-64 nav-dropdown-menu rounded-md hidden group-hover:block z-[90]">
+                                <a href="#" class="block px-4 py-2.5 nav-dropdown-item">Child Abuse & Neglect</a>
+                                <a href="#" class="block px-4 py-2.5 nav-dropdown-item">Defending Veterans</a>
+                                <a href="#" class="block px-4 py-2.5 nav-dropdown-item">Domestic Violence</a>
+                                <a href="#" class="block px-4 py-2.5 nav-dropdown-item">Drug Crimes</a>
+                                <a href="#" class="block px-4 py-2.5 nav-dropdown-item">DUI</a>
+                                <a href="#" class="block px-4 py-2.5 nav-dropdown-item">Expungements</a>
+                                <a href="#" class="block px-4 py-2.5 nav-dropdown-item">Federal Crimes</a>
+                                <a href="#" class="block px-4 py-2.5 nav-dropdown-item">Homicides</a>
+                                <a href="#" class="block px-4 py-2.5 nav-dropdown-item">Juvenile Crimes</a>
+                                <a href="#" class="block px-4 py-2.5 nav-dropdown-item text-xs">Mental Illness & Substance Abuse</a>
+                                <a href="#" class="block px-4 py-2.5 nav-dropdown-item">Probation Violation</a>
+                                <a href="#" class="block px-4 py-2.5 nav-dropdown-item">Property Crimes</a>
+                                <a href="#" class="block px-4 py-2.5 nav-dropdown-item">Serious & Violent Felonies</a>
+                                <a href="#" class="block px-4 py-2.5 nav-dropdown-item">Sex Crimes</a>
+                                <a href="#" class="block px-4 py-2.5 nav-dropdown-item">Theft Crimes</a>
+                                <a href="#" class="block px-4 py-2.5 nav-dropdown-item">Violent Crimes</a>
+                                <!-- Nested Fly-out trigger sample -->
+                                <div class="relative group/sub flex items-center justify-between px-4 py-2.5 nav-dropdown-item cursor-pointer">
+                                    <span>White Collar Crimes</span>
+                                    <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                                    <div class="absolute left-full top-0 ml-1 w-52 nav-dropdown-menu rounded-md hidden group-hover/sub:block">
+                                        <a href="#" class="block px-4 py-2.5 nav-dropdown-item">Corporate Fraud</a>
+                                        <a href="#" class="block px-4 py-2.5 nav-dropdown-item">Embezzlement</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- DROP 2: Team -->
+                        <div class="relative group">
+                            <button class="flex items-center gap-1 hover:text-gold transition border-b-2 border-transparent hover:border-gold py-1 focus:outline-none">
+                                Team <i class="fa-solid fa-chevron-down text-[10px] ml-0.5"></i>
+                            </button>
+                            <div class="absolute left-0 mt-1 w-56 nav-dropdown-menu rounded-md hidden group-hover:block z-[90]">
+                                <div class="relative group/sub flex items-center justify-between px-4 py-2.5 nav-dropdown-item cursor-pointer">
+                                    <span>Attorneys</span>
+                                    <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                                    <div class="absolute left-full top-0 ml-1 w-48 nav-dropdown-menu rounded-md hidden group-hover/sub:block">
+                                        <a href="#" class="block px-4 py-2.5 nav-dropdown-item">William V. Pernik</a>
+                                        <a href="#" class="block px-4 py-2.5 nav-dropdown-item">Alana Wilson</a>
+                                        <a href="#" class="block px-4 py-2.5 nav-dropdown-item">Dustin Ercolano</a>
+                                        <a href="#" class="block px-4 py-2.5 nav-dropdown-item">Ashley Cameron</a>
+                                        <a href="#" class="block px-4 py-2.5 nav-dropdown-item">Alexander Martin</a>
+                                        <a href="#" class="block px-4 py-2.5 nav-dropdown-item">Nas Yasin</a>
+                                    </div>
+                                </div>
+                                <div class="relative group/sub flex items-center justify-between px-4 py-2.5 nav-dropdown-item cursor-pointer">
+                                    <span>Investigator</span>
+                                    <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                                    <div class="absolute left-full top-0 ml-1 w-48 nav-dropdown-menu rounded-md hidden group-hover/sub:block">
+                                        <a href="#" class="block px-4 py-2.5 nav-dropdown-item">In-House Investigator</a>
+                                    </div>
+                                </div>
+                                <div class="relative group/sub flex items-center justify-between px-4 py-2.5 nav-dropdown-item cursor-pointer">
+                                    <span>Support Staff</span>
+                                    <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                                    <div class="absolute left-full top-0 ml-1 w-48 nav-dropdown-menu rounded-md hidden group-hover/sub:block">
+                                        <a href="#" class="block px-4 py-2.5 nav-dropdown-item">Legal Assistants</a>
+                                        <a href="#" class="block px-4 py-2.5 nav-dropdown-item">Intake Team</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="#" class="hover:text-gold transition border-b-2 border-transparent hover:border-gold py-1">Testimonials</a>
+                        <a href="#" class="hover:text-gold transition border-b-2 border-transparent hover:border-gold py-1">Resources</a>
+
+                        <!-- DROP 3: Areas Served -->
+                        <div class="relative group">
+                            <button class="flex items-center gap-1 hover:text-gold transition border-b-2 border-transparent hover:border-gold py-1 focus:outline-none">
+                                Areas Served <i class="fa-solid fa-chevron-down text-[10px] ml-0.5"></i>
+                            </button>
+                            <div class="absolute left-0 mt-1 w-60 nav-dropdown-menu rounded-md hidden group-hover:block z-[90]">
+                                <div class="relative group/sub flex items-center justify-between px-4 py-2.5 nav-dropdown-item cursor-pointer">
+                                    <span>Monterey County</span>
+                                    <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                                    <div class="absolute left-full top-0 ml-1 w-48 nav-dropdown-menu rounded-md hidden group-hover/sub:block">
+                                        <a href="#" class="block px-4 py-2.5 nav-dropdown-item">Carmel</a>
+                                        <a href="#" class="block px-4 py-2.5 nav-dropdown-item">Monterey</a>
+                                        <a href="#" class="block px-4 py-2.5 nav-dropdown-item">Pacific Grove</a>
+                                        <a href="#" class="block px-4 py-2.5 nav-dropdown-item">Salinas</a>
+                                    </div>
+                                </div>
+                                <div class="relative group/sub flex items-center justify-between px-4 py-2.5 nav-dropdown-item cursor-pointer">
+                                    <span>Santa Clara County</span>
+                                    <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                                    <div class="absolute left-full top-0 ml-1 w-48 nav-dropdown-menu rounded-md hidden group-hover/sub:block">
+                                        <a href="#" class="block px-4 py-2.5 nav-dropdown-item">Gilroy</a>
+                                        <a href="#" class="block px-4 py-2.5 nav-dropdown-item">Mountain View</a>
+                                        <a href="#" class="block px-4 py-2.5 nav-dropdown-item">Palo Alto</a>
+                                        <a href="#" class="block px-4 py-2.5 nav-dropdown-item">San Jose</a>
+                                        <a href="#" class="block px-4 py-2.5 nav-dropdown-item">Sunnyvale</a>
+                                    </div>
+                                </div>
+                                <div class="relative group/sub flex items-center justify-between px-4 py-2.5 nav-dropdown-item cursor-pointer">
+                                    <span>Santa Cruz County</span>
+                                    <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                                    <div class="absolute left-full top-0 ml-1 w-48 nav-dropdown-menu rounded-md hidden group-hover/sub:block">
+                                        <a href="#" class="block px-4 py-2.5 nav-dropdown-item">Santa Cruz</a>
+                                        <a href="#" class="block px-4 py-2.5 nav-dropdown-item">Watsonville</a>
+                                    </div>
+                                </div>
+                                <div class="relative group/sub flex items-center justify-between px-4 py-2.5 nav-dropdown-item cursor-pointer">
+                                    <span>San Benito County</span>
+                                    <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                                    <div class="absolute left-full top-0 ml-1 w-48 nav-dropdown-menu rounded-md hidden group-hover/sub:block">
+                                        <a href="#" class="block px-4 py-2.5 nav-dropdown-item">Hollister</a>
+                                    </div>
+                                </div>
+                                <div class="relative group/sub flex items-center justify-between px-4 py-2.5 nav-dropdown-item cursor-pointer">
+                                    <span>San Mateo County</span>
+                                    <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                                    <div class="absolute left-full top-0 ml-1 w-48 nav-dropdown-menu rounded-md hidden group-hover/sub:block">
+                                        <a href="#" class="block px-4 py-2.5 nav-dropdown-item">Redwood City</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Contact Us Button styled inline to complete navigation aesthetics -->
+                        <a href="#hero-form-container" class="bg-gold hover:bg-goldDark text-navy px-4 py-1.5 rounded-sm transition shadow-md hover:text-navy text-[11px] uppercase tracking-wider font-bold shrink-0">
+                            Contact Us
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mobile & Tablet Layout (under lg) -->
+            <div class="lg:hidden flex items-center justify-between h-20">
+                <!-- Identity (Left) -->
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 flex items-center justify-center shrink-0">
+                        <img src="https://i.ibb.co/rGPWQRPx/72cef0c0-2a3b-409a-8672-04739b0855d7-logo.png" alt="Pernik Law Logo" style="width: 50px !important;height: auto !important;max-width: none !important;min-width: 50px !important;display: block;">  
+                    </div>
+                    <div class="flex flex-col text-left">
+                        <span class="text-xl pt-serif-title tracking-wider uppercase leading-none text-white font-bold">
+                            Pernik <span class="text-gold">Law</span>
+                        </span>
+                        <span class="text-gray-400 mt-0.5 text-[8px] tracking-widest uppercase font-semibold">Purpose-Driven Defense</span>
+                    </div>
+                </div>
+
+                <!-- Hamburger Button (Right) -->
+                <button id="mobileMenuBtn" class="text-white hover:text-gold focus:outline-none p-2 transition-colors duration-200">
+                    <i id="hamburgerIcon" class="fa-solid fa-bars text-2xl"></i>
+                </button>
+            </div>
+
+        </div>
+
+        <!-- Collapsible Mobile Menu Drawer (under lg) -->
+        <div id="mobileMenuDrawer" class="hidden lg:hidden border-t border-white/10 bg-navy/95 backdrop-blur-md transition-all duration-300">
+            <div class="px-4 pt-4 pb-6 space-y-4 text-left">
+                <!-- Navigation Links with Collapsible Accordion Subsections -->
+                <div class="flex flex-col space-y-3 pl-2">
+                    <a href="#" class="block text-gray-300 hover:text-gold py-1 text-sm font-medium transition-colors">Home</a>
+                    <a href="#" class="block text-gray-300 hover:text-gold py-1 text-sm font-medium transition-colors">About</a>
+                    
+                    <!-- ACCORDION 1: Practice Areas -->
+                    <div>
+                        <button onclick="toggleMobileAccordion('mob-practice-areas')" class="w-full flex justify-between items-center text-gray-300 hover:text-gold py-1 text-sm font-medium focus:outline-none">
+                            <span>Practice Areas</span>
+                            <i id="mob-practice-areas-chevron" class="fa-solid fa-chevron-down text-xs transition-transform duration-200"></i>
+                        </button>
+                        <div id="mob-practice-areas" class="hidden pl-4 mt-2 space-y-2 border-l border-white/10 text-xs text-gray-400">
+                            <a href="#" class="block py-1 hover:text-gold">Child Abuse & Neglect</a>
+                            <a href="#" class="block py-1 hover:text-gold">Defending Veterans</a>
+                            <a href="#" class="block py-1 hover:text-gold">Domestic Violence</a>
+                            <a href="#" class="block py-1 hover:text-gold">Drug Crimes</a>
+                            <a href="#" class="block py-1 hover:text-gold">DUI</a>
+                            <a href="#" class="block py-1 hover:text-gold">Expungements</a>
+                            <a href="#" class="block py-1 hover:text-gold">Federal Crimes</a>
+                            <a href="#" class="block py-1 hover:text-gold">Homicides</a>
+                            <a href="#" class="block py-1 hover:text-gold">Juvenile Crimes</a>
+                            <a href="#" class="block py-1 hover:text-gold">Mental Illness & Substance Abuse</a>
+                            <a href="#" class="block py-1 hover:text-gold">Probation Violation</a>
+                            <a href="#" class="block py-1 hover:text-gold">Property Crimes</a>
+                            <a href="#" class="block py-1 hover:text-gold">Serious & Violent Felonies</a>
+                            <a href="#" class="block py-1 hover:text-gold">Sex Crimes</a>
+                            <a href="#" class="block py-1 hover:text-gold">Theft Crimes</a>
+                            <a href="#" class="block py-1 hover:text-gold">Violent Crimes</a>
+                            <a href="#" class="block py-1 hover:text-gold">White Collar Crimes</a>
+                        </div>
+                    </div>
+
+                    <!-- ACCORDION 2: Team -->
+                    <div>
+                        <button onclick="toggleMobileAccordion('mob-team')" class="w-full flex justify-between items-center text-gray-300 hover:text-gold py-1 text-sm font-medium focus:outline-none">
+                            <span>Team</span>
+                            <i id="mob-team-chevron" class="fa-solid fa-chevron-down text-xs transition-transform duration-200"></i>
+                        </button>
+                        <div id="mob-team" class="hidden pl-4 mt-2 space-y-2 border-l border-white/10 text-xs text-gray-400">
+                            <p class="font-bold text-gray-300">Attorneys:</p>
+                            <a href="#" class="block py-0.5 hover:text-gold pl-2">William V. Pernik</a>
+                            <a href="#" class="block py-0.5 hover:text-gold pl-2">Alana Wilson</a>
+                            <a href="#" class="block py-0.5 hover:text-gold pl-2">Dustin Ercolano</a>
+                            <a href="#" class="block py-0.5 hover:text-gold pl-2">Ashley Cameron</a>
+                            <a href="#" class="block py-0.5 hover:text-gold pl-2">Alexander Martin</a>
+                            <a href="#" class="block py-0.5 hover:text-gold pl-2">Nas Yasin</a>
+                            <p class="font-bold text-gray-300 mt-2">Investigator:</p>
+                            <a href="#" class="block py-0.5 hover:text-gold pl-2">In-House Investigator</a>
+                            <p class="font-bold text-gray-300 mt-2">Support Staff:</p>
+                            <a href="#" class="block py-0.5 hover:text-gold pl-2">Legal Assistants</a>
+                        </div>
+                    </div>
+
+                    <a href="#" class="block text-gray-300 hover:text-gold py-1 text-sm font-medium transition-colors">Testimonials</a>
+                    <a href="#" class="block text-gray-300 hover:text-gold py-1 text-sm font-medium transition-colors">Resources</a>
+
+                    <!-- ACCORDION 3: Areas Served -->
+                    <div>
+                        <button onclick="toggleMobileAccordion('mob-areas')" class="w-full flex justify-between items-center text-gray-300 hover:text-gold py-1 text-sm font-medium focus:outline-none">
+                            <span>Areas Served</span>
+                            <i id="mob-areas-chevron" class="fa-solid fa-chevron-down text-xs transition-transform duration-200"></i>
+                        </button>
+                        <div id="mob-areas" class="hidden pl-4 mt-2 space-y-2 border-l border-white/10 text-xs text-gray-400">
+                            <p class="font-bold text-gray-300">Monterey County:</p>
+                            <a href="#" class="block py-0.5 hover:text-gold pl-2">Carmel</a>
+                            <a href="#" class="block py-0.5 hover:text-gold pl-2">Monterey</a>
+                            <a href="#" class="block py-0.5 hover:text-gold pl-2">Pacific Grove</a>
+                            <a href="#" class="block py-0.5 hover:text-gold pl-2">Salinas</a>
+                            <p class="font-bold text-gray-300 mt-2">Santa Clara County:</p>
+                            <a href="#" class="block py-0.5 hover:text-gold pl-2">Gilroy</a>
+                            <a href="#" class="block py-0.5 hover:text-gold pl-2">Mountain View</a>
+                            <a href="#" class="block py-0.5 hover:text-gold pl-2">Palo Alto</a>
+                            <a href="#" class="block py-0.5 hover:text-gold pl-2">San Jose</a>
+                            <a href="#" class="block py-0.5 hover:text-gold pl-2">Sunnyvale</a>
+                            <p class="font-bold text-gray-300 mt-2">Santa Cruz County:</p>
+                            <a href="#" class="block py-0.5 hover:text-gold pl-2">Santa Cruz</a>
+                            <a href="#" class="block py-0.5 hover:text-gold pl-2">Watsonville</a>
+                            <p class="font-bold text-gray-300 mt-2">San Benito County:</p>
+                            <a href="#" class="block py-0.5 hover:text-gold pl-2">Hollister</a>
+                            <p class="font-bold text-gray-300 mt-2">San Mateo County:</p>
+                            <a href="#" class="block py-0.5 hover:text-gold pl-2">Redwood City</a>
+                        </div>
+                    </div>
+
+                    <a href="#hero-form-container" class="inline-block bg-gold hover:bg-goldDark text-navy text-center py-2.5 rounded-sm transition text-xs uppercase tracking-wider font-bold w-full mt-2">
+                        Contact Us
+                    </a>
+                </div>
+
+                <!-- Buttons Stacked inside Hamburger -->
+                <div class="pt-4 border-t border-white/5 flex flex-col gap-3 font-sans">
+                    <!-- Make a Payment Button -->
+                    <a href="#payment-link-placeholder" class="flex items-center justify-center bg-transparent border border-gold/40 text-gold hover:bg-gold hover:text-navy py-3 rounded-sm transition-all duration-300 font-semibold tracking-wider uppercase text-xs">
+                        <i class="fa-solid fa-credit-card mr-2"></i> Make a Payment
+                    </a>
+                    <!-- Free Consultation Call Button -->
+                    <a href="tel:8316121970" class="flex items-center justify-center bg-gold text-navy hover:bg-goldDark hover:text-navy py-3 rounded-sm transition-all duration-300 font-bold tracking-wider uppercase text-xs">
+                        <i class="fa-solid fa-phone mr-2"></i> Free Consultation: 831-612-1970
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- =================================================== -->
+    <!-- END PORTABLE NAVIGATION HEADER -->
+    <!-- =================================================== -->
+
+    <!-- Section 1: Hero -->
+    <section class="relative bg-navy py-24 lg:py-32 overflow-hidden border-b border-white/5">
+        <div class="absolute inset-0 opacity-20 pointer-events-none">
+            <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&q=80" alt="Pernik Law APC Criminal Defense Firm California background" class="w-full h-full object-cover">
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 font-sans">
+            <!-- Aligning left and right columns horizontally at the top to prevent clipping/overlapping -->
+            <div class="flex flex-col lg:flex-row items-start gap-16">
+                <!-- Left-hand side content (Headline, subtext, toggles, compact video) -->
+                <div class="lg:w-3/5 w-full min-w-0 text-white text-left">
+                    
+                    <!-- 3 Mini Toggles on top of the headline (Sleeker, rounded-md, py-1 px-3, with healthy spacing to headline) -->
+                    <div class="flex flex-nowrap overflow-x-auto md:overflow-x-visible snap-x md:snap-none gap-3 text-slate-300 justify-start scrollbar-none pb-2 mb-6">
+                       <div class="flex items-center gap-2 bg-white/5 px-3 py-1.5 rounded-md border border-white/10 text-[10px] uppercase tracking-wider font-semibold flex-shrink-0 snap-center">
+                            <i class="fa-solid fa-gavel text-gold text-xs"></i> 
+                            <span>75+ Jury Trials</span>
+                        </div>
+                        <div class="flex items-center gap-2 bg-white/5 px-3 py-1.5 rounded-md border border-white/10 text-[10px] uppercase tracking-wider font-semibold flex-shrink-0 snap-center">
+                            <i class="fa-solid fa-star text-gold text-xs"></i> 
+                            <span>200+ 5-Star Reviews</span>
+                        </div>
+                        <div class="flex items-center gap-2 bg-white/5 px-3 py-1.5 rounded-md border border-white/10 text-[10px] uppercase tracking-wider font-semibold flex-shrink-0 snap-center">
+                            <i class="fa-solid fa-crown text-gold text-xs"></i> 
+                            <span>20+ Years Experience</span>
+                        </div>
+                    </div>
+
+                    <!-- Headline mapping requested typography-h1 (52px / 700) with local California defense terminology -->
+                    <h1 class="mb-6 typography-h1 font-bold">
+                        The System Sees a Case File. <br>
+                        <span class="text-gold italic">We See Your Future.</span>
+                    </h1>
+                    <!-- Body paragraph mapping requested typography-body (16px / 400) containing strategic DUI & criminal attorney search phrases -->
+                    <p class="text-gray-300 leading-relaxed mb-8 max-w-2xl typography-body">
+                        Most law firms start with the "what," focusing on the charges against you and what it will cost. We start with the "why". Backed by 20 years of experience and 75 jury trials, our California criminal defense attorneys identify the factual or clinical root causes of your legal struggle to build a purpose-driven defense. We don't just conclude a file. We provide a specialized restoration path that secures your future.
+                    </p>
+
+                    <!-- RESTORED COMPACT PROPORTIONAL VIDEO PLAYER TRIGGER CARD (Perfect dimensions and alignment, no vertical/horizontal stretching) -->
+                    <div onclick="openVideoModal('https://www.youtube.com/embed/dQw4w9WgXcQ')" class="mt-8 flex items-center gap-4 bg-white/5 hover:bg-white/10 border border-gold/20 hover:border-gold/50 rounded-xl p-4 max-w-xl cursor-pointer transition-all duration-300 shadow-xl group">
+                        <!-- Play Indicator Container -->
+                        <div class="relative w-20 h-14 rounded-lg overflow-hidden shrink-0 bg-black border border-white/10 shadow-inner">
+                            <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&q=80" alt="Video cover" class="w-full h-full object-cover opacity-60">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-8 h-8 rounded-full bg-gold/90 text-navy flex items-center justify-center transform transition duration-300 group-hover:scale-110 shadow-lg">
+                                    <i class="fas fa-play text-[10px] ml-0.5 animate-pulse"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Video Descriptive Copy -->
+                        <div class="text-left min-w-0">
+                            <span class="text-gold font-bold text-xs uppercase tracking-wider block mb-1 flex items-center gap-1.5">
+                                <span class="inline-block w-2 h-2 rounded-full bg-red-500 animate-ping"></span>
+                                Listen to our founder
+                            </span>
+                            <p class="text-[13px] text-gray-200 font-light leading-relaxed">
+                                William V. Pernik shares insights into the purpose-driven strategy we use to defend our clients. Click to play.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right-hand side Consultation form (Ensured clean, compact margins and fixed column width on desktop to prevent overlap) -->
+                <div id="hero-form-container" class="bg-white p-6 sm:p-8 rounded shadow-2xl border-t-8 border-gold w-full lg:w-[38%] xl:w-[35%] max-w-md lg:max-w-none text-left shrink-0">
+                    <!-- Form Header mapping requested typography-h3 (22px / 700) -->
+                    <h3 class="text-navy mb-1 text-lg font-bold font-serif leading-tight">Schedule Your Free Consultation</h3>
+                    <p class="text-slate-500 italic mb-4 text-xs font-light">Confidential inquiry to our elite defense team.</p>
+                    
+                    <form id="intakeForm" onsubmit="event.preventDefault();" class="space-y-4">
+                        <!-- Two columns for First Name and Last Name instead of Full Name -->
+                        <div class="grid grid-cols-2 gap-3">
+                            <input type="text" placeholder="First Name" required class="w-full p-3 bg-slate-50 border border-slate-200 rounded text-xs focus:border-gold outline-none transition-colors typography-body">
+                            <input type="text" placeholder="Last Name" required class="w-full p-3 bg-slate-50 border border-slate-200 rounded text-xs focus:border-gold outline-none transition-colors typography-body">
+                        </div>
+                        <!-- Email and Phone Inputs Grid -->
+                        <div class="grid grid-cols-2 gap-3">
+                            <input type="email" placeholder="Email" required class="w-full p-3 bg-slate-50 border border-slate-200 rounded text-xs focus:border-gold outline-none transition-colors typography-body">
+                            <input type="tel" placeholder="Phone" required class="w-full p-3 bg-slate-50 border border-slate-200 rounded text-xs focus:border-gold outline-none transition-colors typography-body">
+                        </div>
+                        <!-- Dropped practice areas selector as requested -->
+                        <textarea rows="2" placeholder="Briefly share case details..." class="w-full p-3 bg-slate-50 border border-slate-200 rounded text-xs focus:border-gold outline-none transition-colors typography-body"></textarea>
+                        
+                        <!-- NEW COMPACT TCPA & A2P CONSENT CHECKBOXES -->
+                        <div class="space-y-2 text-left border-t border-slate-100 pt-3">
+                            <label class="flex items-start gap-1.5 cursor-pointer text-slate-500 hover:text-navy transition-colors">
+                                <input type="checkbox" required class="mt-0.5 w-3.5 h-3.5 rounded border-slate-300 text-gold focus:ring-gold shrink-0">
+                                <span class="text-[9px] leading-tight font-light font-sans">
+                                    I consent to receive marketing text messages from Law Offices of William V. Pernik at the phone number provided. Frequency may vary. Message & data rates may apply. Text HELP for assistance, reply STOP to opt out.
+                                </span>
+                            </label>
+                            <label class="flex items-start gap-1.5 cursor-pointer text-slate-500 hover:text-navy transition-colors">
+                                <input type="checkbox" required class="mt-0.5 w-3.5 h-3.5 rounded border-slate-300 text-gold focus:ring-gold shrink-0">
+                                <span class="text-[9px] leading-tight font-light font-sans">
+                                    I consent to receive non-marketing text messages from Law Offices of William V. Pernik about my order updates, appointment reminders etc. Message & data rates may apply.
+                                </span>
+                            </label>
+                            <label class="flex items-start gap-1.5 cursor-pointer text-slate-500 hover:text-navy transition-colors">
+                                <input type="checkbox" required class="mt-0.5 w-3.5 h-3.5 rounded border-slate-300 text-gold focus:ring-gold shrink-0">
+                                <span class="text-[9px] leading-tight font-light font-sans">
+                                    I agree to the <a href="#" class="text-gold hover:text-goldDark underline">Terms of Service</a> & <a href="#" class="text-gold hover:text-goldDark underline">Privacy Policy</a>.
+                                </span>
+                            </label>
+                        </div>
+
+                        <!-- Main form submit button -->
+                        <button type="submit" class="w-full bg-navy text-white font-bold py-3.5 rounded hover:bg-gray-800 transition tracking-widest uppercase shadow-xl text-xs mb-1">Get Started!</button>
+                        
+                        <!-- ADDED CALL US ACTION BUTTON DIRECTLY UNDER THE SUBMIT TRIGGER -->
+                        <a href="tel:8316121970" class="w-full inline-flex items-center justify-center border-2 border-gold hover:border-goldDark text-navy font-bold py-2.5 rounded hover:bg-gold hover:text-navy transition duration-300 tracking-widest uppercase shadow-md text-[11px]">
+                            <i class="fa-solid fa-phone mr-2 text-goldDark"></i> Call Us: 831-612-1970
+                        </a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Awards Strip -->
+    <section class="bg-offWhite py-14 border-b border-gray-200 overflow-x-auto scrollbar-none snap-x font-sans">
+        <div class="max-w-7xl mx-auto px-4 flex flex-nowrap md:flex-wrap items-center justify-start md:justify-center gap-12 md:gap-24 font-sans">
+            <div class="text-gray-400 typography-label shrink-0 snap-center">Recognized Leaders in California Criminal Defense Advocacy</div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Super_Lawyers_logo.png" alt="Super Lawyers California badge" class="h-10 award-logo shrink-0 snap-center">
+            <span class="text-gray-400 font-bold text-2xl award-logo italic tracking-tighter pt-serif-title shrink-0 snap-center">AVVO TOP RATED</span>
+            <span class="text-gray-400 font-bold text-2xl award-logo pt-serif-title shrink-0 snap-center">NACDL MEMBER</span>
+        </div>
+    </section>
+
+    <!-- Section 3: The Pernik Difference -->
+    <section class="py-24 bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row items-center gap-16">
+                <div class="lg:w-1/2">
+                    <!-- Category label mapping requested typography-label (11px / 600 / UC) -->
+                    <h4 class="text-gold mb-4 typography-label">A Different Approach to Criminal Defense</h4>
+                    <!-- Heading mapping requested typography-h2 (38px / 700) -->
+                    <h2 class="text-navy mb-8 leading-tight text-left typography-h2 font-serif">Some law firms follow the course of your case. We help you chart a new one.</h2>
+                    <!-- Body narrative mapping requested typography-body (16px / 400) with enriched semantic search terms -->
+                    <div class="space-y-6 text-gray-600 leading-relaxed text-left typography-body">
+                        <p>Our California criminal defense firm is pioneering a transformative model of advocacy that we call the Counselor approach. While we provide high-stakes legal defense across all California criminal matters, our expertise is deepest where the law intersects with human crisis. We specialize in cases where a legal charge is a symptom of a larger struggle—be it mental health, trauma, or addiction. We don’t simply process a case; we manage a life, providing a defense that is as emotionally intelligent as it is legally rigorous. We don’t simply conclude a file. We provide a specialized restoration path that secures your future.</p>
+                        <p>We exist to solve the legal problems that bring clients to our California criminal lawyers in the first place. That's what we believe in. While standard firms focus exclusively on the police report and the criminal act, we dig deeper to understand <strong>why</strong> you are facing this crisis.</p>
+                        
+                        <!-- Callout styled elegantly using PT Serif italic quote representation -->
+                        <p class="text-navy border-l-4 border-gold pl-6 py-2 font-medium italic typography-quote">"By identifying factual or clinical root causes, we develop tailored solutions that don't just fight charges - they actively restore futures."</p>
+                    </div>
+                    <!-- STRATEGIC CTA ROW: Added modern tactical touch buttons -->
+                    <div class="mt-12 flex flex-col sm:flex-row gap-4 justify-start font-sans">
+                        <a href="#hero-form-container" class="inline-flex items-center justify-center bg-navy text-white px-8 py-4 font-bold uppercase tracking-widest hover:bg-gray-800 transition shadow-xl rounded-sm typography-nav">
+                            Schedule Free Consultation <i class="fas fa-chevron-right ml-3 text-gold"></i>
+                        </a>
+                        <a href="tel:8316121970" class="inline-flex items-center justify-center border-2 border-navy text-navy px-8 py-4 font-bold uppercase tracking-widest hover:bg-navy hover:text-white transition rounded-sm typography-nav">
+                            <i class="fa-solid fa-phone mr-3"></i> Call Now: 831-612-1970
+                        </a>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 relative">
+                    <div class="relative z-10 rounded shadow-2xl overflow-hidden animate-fade-in">
+                        <img src="https://i.ibb.co/k2ntqtBR/DSF8446.jpg" alt="William V. Pernik - State Certified Criminal Law Specialist California" class="w-full h-auto">                        
+                        <!-- Professional Title overlay card left corner -->
+                        <div class="absolute top-4 left-4 bg-navy/90 border border-gold/40 backdrop-blur-sm p-4 text-white text-left max-w-xs shadow-xl rounded-sm">
+                            <p class="text-white font-bold pt-serif-title uppercase text-xs font-serif" style="font-size: 13px !important; line-height: 1.25 !important;">William V. Pernik</p>
+                            <p class="text-gold mt-1 typography-label" style="font-size: 8px !important; letter-spacing: 0.15em !important; line-height: 1.2 !important;">Founder & State-Certified Criminal Law Specialist</p>
+                        </div>
+                        <div class="absolute bottom-0 left-0 right-0 bg-navy/80 p-8 text-white backdrop-blur-md text-left font-serif">
+                            <p class="text-gold mb-2 typography-label font-sans">Mental Health Advocacy</p>
+                            <!-- Elegant Quote mapping typography-quote (18px / Italic) -->
+                            <h4 class="leading-snug text-white typography-quote">"We know that many cases are driven by mental health struggles, trauma or addiction that others simply miss. By capturing this 'missing demographic,' we get treatment for those who need it and justice for those who were wrongfully accused."</h4>
+                        </div>
+                    </div>
+                    <div class="absolute -top-10 -right-10 w-48 h-48 gold-gradient opacity-10 -z-10 rounded-full"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- START REVIEWS SECTION -->
+    <section class="py-16 bg-offWhite border-y border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row items-center justify-between gap-12 font-sans">
+                <div class="lg:w-1/3 text-left">
+                    <div class="inline-flex items-center justify-center gap-2 mb-4 bg-white px-4 py-2 rounded-full border border-slate-200">
+                        <div class="flex text-gold text-sm"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star ml-1"></i><i class="fa-solid fa-star ml-1"></i><i class="fa-solid fa-star ml-1"></i><i class="fa-solid fa-star ml-1"></i></div>
+                        <span class="text-navy font-bold text-xs typography-label">Rated Excellent (200+ Reviews)</span>
+                    </div>
+                    <h2 class="text-navy typography-h2 font-serif font-serif">Verified Client Experiences</h2>
+                    <p class="mt-4 mb-8 text-gray-500 typography-body font-light">Read how our purpose-driven criminal defense advocacy restores careers, families, and futures when the stakes are highest.</p>
+                    
+                    <!-- NEW READ ALL REVIEWS CTA BUTTON -->
+                    <a href="#testimonials-page-link" class="inline-flex items-center justify-center bg-navy hover:bg-gray-800 text-white px-6 py-3.5 font-bold uppercase tracking-widest transition rounded-sm shadow-md typography-nav text-xs font-sans">
+                        Read All Reviews <i class="fas fa-chevron-right ml-2 text-gold font-sans"></i>
+                    </a>
+                </div>
+                
+                <!-- Swiper with dynamic multi-slides responsive columns setup -->
+                <div class="lg:w-2/3 w-full font-sans">
+                    <div class="swiper testimonialSwiper relative w-full overflow-hidden pb-12">
+                        <div class="swiper-wrapper">
+                            <!-- Card 1 -->
+                            <div class="swiper-slide h-auto">
+                                <div class="bg-white p-8 rounded-2xl shadow-xl border border-gray-100 flex flex-col justify-between h-full text-center">
+                                    <div class="flex justify-center text-gold mb-6 text-sm"><i class="fas fa-star"></i><i class="fas fa-star ml-1"></i><i class="fas fa-star ml-1"></i><i class="fas fa-star ml-1"></i><i class="fas fa-star ml-1"></i></div>
+                                    <!-- Testimonial quotes mapping typography-quote (18px / Italic) -->
+                                    <p class="text-navy leading-relaxed mb-6 typography-quote font-serif font-serif font-serif font-serif">"William and his team don't just see a case number. They saw my struggle and helped me get the treatment I needed to save my career."</p>
+                                    <span class="text-navy typography-label block mt-auto font-sans">Michael S. — Former Client</span>
+                                </div>
+                            </div>
+                            <!-- Card 2 -->
+                            <div class="swiper-slide h-auto">
+                                <div class="bg-white p-8 rounded-2xl shadow-xl border border-gray-100 flex flex-col justify-between h-full text-center">
+                                    <div class="flex justify-center text-gold mb-6 text-sm"><i class="fas fa-star"></i><i class="fas fa-star ml-1"></i><i class="fas fa-star ml-1"></i><i class="fas fa-star ml-1"></i><i class="fas fa-star ml-1"></i></div>
+                                    <p class="text-navy leading-relaxed mb-6 typography-quote font-serif font-serif font-serif font-serif font-serif">"Professional, detailed, and results-driven. They focus on the 'why' and it makes all the difference in the courtroom. Highly recommend."</p>
+                                    <span class="text-navy typography-label block mt-auto font-sans">David K. — Former Client</span>
+                                </div>
+                            </div>
+                            <!-- Card 3 -->
+                            <div class="swiper-slide h-auto">
+                                <div class="bg-white p-8 rounded-2xl shadow-xl border border-gray-100 flex flex-col justify-between h-full text-center">
+                                    <div class="flex justify-center text-gold mb-6 text-sm"><i class="fas fa-star"></i><i class="fas fa-star ml-1"></i><i class="fas fa-star ml-1"></i><i class="fas fa-star ml-1"></i><i class="fas fa-star ml-1"></i></div>
+                                    <p class="text-navy leading-relaxed mb-6 typography-quote font-serif font-serif font-serif font-serif font-serif">"I was facing a serious felony in California and William Pernik saved my life. His knowledge of mental health diversion is unmatched."</p>
+                                    <span class="text-navy typography-label block mt-auto font-sans">Sarah L. — Former Client</span>
+                                </div>
+                            </div>
+                            <!-- Card 4 -->
+                            <div class="swiper-slide h-auto">
+                                <div class="bg-white p-8 rounded-2xl shadow-xl border border-gray-100 flex flex-col justify-between h-full text-center">
+                                    <div class="flex justify-center text-gold mb-6 text-sm"><i class="fas fa-star"></i><i class="fas fa-star ml-1"></i><i class="fas fa-star ml-1"></i><i class="fas fa-star ml-1"></i><i class="fas fa-star ml-1"></i></div>
+                                    <p class="text-navy leading-relaxed mb-6 typography-quote font-serif">"Incredibly strategic approach. They mapped out a clear treatment plan that completely changed the prosecutor's perception of my case."</p>
+                                    <span class="text-navy typography-label block mt-auto font-sans">Robert J. — Former Client</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination mt-8 relative font-sans"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Who We Serve (MINIMIZED & COMPACT TEXT CARDS WITH YOUTUBE PLAYER) -->
+    <section class="py-24 bg-white border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-16">
+            <!-- Header mapping typography-h2 (38px / 700) -->
+            <h2 class="text-navy typography-h2 font-serif font-serif font-serif">Who We Serve</h2>
+            <!-- Subtitle mapping typography-label (11px / 600 / UC) -->
+            <p class="mt-6 text-gray-400 text-lg max-w-2xl mx-auto font-light typography-body font-sans font-sans">We do not believe in one-size-fits-all legal defense. Our practice is centered around resolving distinct human crises across three focus groups.</p>
+            <div class="h-1 w-24 bg-gold mx-auto mt-6 font-sans"></div>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 font-sans">
+            <!-- Mobile Horizontal Swipe Slider Wrapper -->
+            <div class="swiper mobileCardsSwiper relative">
+                <div class="swiper-wrapper md:grid md:grid-cols-3 md:gap-12 md:!translate-x-0 md:!w-auto font-sans font-sans">
+                    <!-- Persona 1 -->
+                    <div class="swiper-slide bg-offWhite rounded-xl overflow-hidden shadow-xl border-t-4 border-gold p-8 hover:-translate-y-2 transition duration-500 flex flex-col justify-between h-full">
+                        <div class="text-left font-sans font-sans">
+                            <!-- Profile heading mapping typography-h3 (22px / 700) -->
+                            <h3 class="text-navy mb-4 typography-h3 text-xl leading-tight font-serif font-serif">The Wrongfully Accused</h3>
+                            <!-- Description narrative mapping typography-body (16px / 400) -->
+                            <p class="text-gray-600 leading-relaxed typography-body text-sm font-light font-sans font-sans font-sans">You are being defined by something you did not do. You are a Victim of malicious or fabricated accusations, lying accusers, mistaken eyewitness identification, flawed police investigations, or junk science. Our California criminal lawyers conduct a thorough, independent investigation to expose inconsistencies, challenge unreliable testimony, uncover hidden motives, and highlight the factual gaps necessary to build a defense and prove your innocence.</p>
+                        </div>
+                        <button onclick="openVideoModal('https://www.youtube.com/embed/dQw4w9WgXcQ')" class="mt-8 text-gold hover:text-goldDark font-bold uppercase text-xs tracking-wider self-start flex items-center gap-2 font-sans border-b border-gold/40 pb-1">
+                            <i class="fa-solid fa-circle-play text-md font-sans"></i> View Related Video
+                        </button>
+                    </div>
+                    <!-- Persona 2 -->
+                    <div class="swiper-slide bg-offWhite rounded-xl overflow-hidden shadow-xl border-t-4 border-gold p-8 hover:-translate-y-2 transition duration-500 flex flex-col justify-between h-full">
+                        <div class="text-left font-sans font-sans font-sans">
+                            <!-- Profile heading mapping typography-h3 (22px / 700) -->
+                            <h3 class="text-navy mb-4 typography-h3 text-xl leading-tight font-serif animate-fade-in font-serif">Rights Violated</h3>
+                            <!-- Description narrative mapping typography-body (16px / 400) -->
+                            <p class="text-gray-600 leading-relaxed typography-body text-sm font-light font-sans font-sans">When law enforcement oversteps, your constitutional rights deserve fierce protection. We represent individuals who have been subjected to illegal traffic stops, unlawful arrests, unconstitutional searches, or vindindicative prosecutions. By rigorously challenging constitutional violations, we work to suppress improperly obtained evidence and hold the system accountable.</p>
+                        </div>
+                        <button onclick="openVideoModal('https://www.youtube.com/embed/dQw4w9WgXcQ')" class="mt-8 text-gold hover:text-goldDark font-bold uppercase text-xs tracking-wider self-start flex items-center gap-2 font-sans border-b border-gold/40 pb-1 font-sans font-sans">
+                            <i class="fa-solid fa-circle-play text-md font-sans font-sans"></i> View Related Video
+                        </button>
+                    </div>
+                    <!-- Persona 3 -->
+                    <div class="swiper-slide bg-offWhite rounded-xl overflow-hidden shadow-xl border-t-4 border-gold p-8 hover:-translate-y-2 transition duration-500 flex flex-col justify-between h-full font-sans">
+                        <div class="text-left font-sans font-sans font-sans">
+                            <!-- Profile heading mapping typography-h3 (22px / 700) -->
+                            <h3 class="text-navy mb-4 typography-h3 text-xl leading-tight font-serif font-serif font-serif">The Human in Crisis</h3>
+                            <!-- Description narrative mapping typography-body (16px / 400) -->
+                            <p class="text-gray-600 leading-relaxed typography-body text-sm font-light font-sans font-sans font-sans font-sans">We defend good people facing difficult circumstances, including those struggling with untreated trauma, drug addiction, alcoholism, or severe mental health conditions. Our California criminal defense team advocates for treatment-focused solutions and alternative resolutions whenever possible, helping clients move forward without being defined by a conviction. We treat you with empathy, not judgment.</p>
+                        </div>
+                        <button onclick="openVideoModal('https://www.youtube.com/embed/dQw4w9WgXcQ')" class="mt-8 text-gold hover:text-goldDark font-bold uppercase text-xs tracking-wider self-start flex items-center gap-2 font-sans border-b border-gold/40 pb-1 font-sans">
+                            <i class="fa-solid fa-circle-play text-md font-sans"></i> View Related Video
+                        </button>
+                    </div>
+                </div>
+                <!-- Pagination Dots shown on Mobile view only -->
+                <div class="swiper-pagination md:!hidden mt-8 relative font-sans"></div>
+            </div>
+
+            <!-- STRATEGIC CTA ROW: Quick help triggers -->
+            <div class="mt-16 bg-navy text-white rounded-2xl p-8 lg:p-12 border border-gold/40 flex flex-col lg:flex-row items-center justify-between gap-6 shadow-2xl text-left font-sans font-sans">
+                <div class="max-w-2xl font-sans">
+                    <p class="text-gold uppercase tracking-wider font-bold typography-label mb-2 font-sans">Need Direct Tactical Evaluation?</p>
+                    <p class="typography-body text-gray-300 font-light text-sm lg:text-base font-sans">Speak directly to an investigator or a trial advocate. Let us help you find the clinical or factual 'Why' before your first court appearance.</p>
+                </div>
+                <div class="flex flex-col sm:flex-row gap-4 shrink-0 w-full lg:w-auto font-sans">
+                    <a href="#hero-form-container" class="bg-gold text-navy text-center px-8 py-3.5 font-bold uppercase tracking-widest rounded shadow-xl hover:bg-goldDark transition typography-nav text-xs font-bold font-sans">Send a Message</a>
+                    <a href="tel:8316121970" class="border border-white/30 text-white text-center px-8 py-3.5 font-bold uppercase tracking-widest rounded hover:bg-white hover:text-navy transition typography-nav text-xs font-bold font-sans"><i class="fa-solid fa-phone mr-2"></i> 831-612-1970</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: The Pernik Method -->
+    <section class="py-24 bg-navy text-white relative font-sans font-sans">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 font-sans">
+            <div class="text-center mb-16 animate-fade-in-up font-sans">
+                <!-- Subheading label mapping typography-label (11px / 600 / UC) -->
+                <h4 class="text-gold mb-4 typography-label">Our Methodology</h4>
+                <!-- Main Header mapping typography-h2 (38px / 700) -->
+                <h2 class="text-white typography-h2 font-serif font-bold">The Pernik Three-Step Method</h2>
+                <!-- Description mapping typography-body (16px / 400) -->
+                <p class="mt-6 text-gray-400 text-lg max-w-2xl mx-auto font-light typography-body font-sans">Identifying the factual or clinical root causes behind your crisis to restore your future.</p>
+            </div>
+            
+            <!-- Compact horizontal layout: 3 Cards Grid on Desktop, Swipe slider on mobile -->
+            <div class="swiper methodSwiper relative w-full overflow-hidden font-sans">
+                <div class="swiper-wrapper lg:grid lg:grid-cols-3 lg:gap-8 lg:!translate-x-0 lg:!w-auto font-sans">
+                    
+                    <!-- Card 1: Step One -->
+                    <div class="swiper-slide bg-white/5 p-8 rounded-2xl border border-white/10 hover:border-gold/40 transition duration-300 flex flex-col justify-between h-full font-sans">
+                        <div class="text-left space-y-4">
+                            <span class="text-xs uppercase text-gold tracking-widest mb-1 typography-label font-sans">Step One</span>
+                            <h3 class="typography-h3 text-xl text-white font-serif font-serif">Identify the Crisis</h3>
+                            <p class="text-gray-400 italic typography-small">We ask the "Why" that the system ignores.</p>
+                            <!-- Styled with typography-small (15px) as requested -->
+                            <p class="method-p-text text-gray-300 font-light mb-6">We look beyond the surface of a police report to find the engine driving the crisis.</p>
+                            
+                            <div class="space-y-4 pt-4 border-t border-white/10">
+                                <div class="relative font-sans">
+                                    <span class="text-gold font-bold text-xs uppercase tracking-wider block">The Factual Why</span>
+                                    <!-- Styled with typography-small (15px) as requested -->
+                                    <p class="text-gray-300 font-light mt-1 method-p-text font-sans">Our South Bay and Central Coast specialist investigates witness bias, detective tunnel vision, and fundamental factual errors. We challenge unreliable testimony by exposing hidden motives early.</p>
+                                </div>
+                                <div class="relative font-sans">
+                                    <span class="text-gold font-bold text-xs uppercase tracking-wider block">The Clinical Why</span>
+                                    <!-- Styled with typography-small (15px) as requested -->
+                                    <p class="text-gray-300 font-light mt-1 method-p-text">Up to 75% of cases involve untreated trauma, neurodivergence, or mental health breakdowns. We pinpoint these as the true root causes behind your crisis to build a customized defense.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2: Step Two -->
+                    <div class="swiper-slide bg-white/5 p-8 rounded-2xl border border-white/10 hover:border-gold/40 transition duration-300 flex flex-col justify-between h-full font-sans font-sans">
+                        <div class="text-left space-y-4">
+                            <span class="text-xs uppercase text-gold tracking-widest mb-1 typography-label font-sans">Step Two</span>
+                            <h3 class="typography-h3 text-xl text-white font-serif">Solve the Cause</h3>
+                            <p class="text-gray-400 italic typography-small font-sans font-sans">Building a Narrative of Restoration.</p>
+                            <!-- Styled with typography-small (15px) as requested -->
+                            <p class="method-p-text text-gray-300 font-light mb-6 font-sans">We dismantle the government’s architecture to craft a superior, evidence-based narrative.</p>
+                            
+                            <!-- Styled with typography-small (15px) as requested -->
+                            <div class="space-y-4 pt-4 border-t border-white/10 text-gray-300 font-light method-p-text font-sans">
+                                <p class="mb-4"><strong>1. In-House Investigation:</strong> Most California law firms outsource their investigation work. At Pernik Law, we work with our full-time in-house investigator to look beyond the police report to find the critical factual gaps and biases that the state missed.</p>
+                                <p class="mb-4"><strong>2. Expert Network:</strong> We collaborate with an established network of mental health experts, addiction specialists, and trauma clinicians to create an individualized treatment-based action plan.</p>
+                                <p><strong>3. Path of Restoration:</strong> We don't just solve the legal problem; we close the cycle of crisis by leading you on a path of clinical restoration and long-term life stability.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3: Step Three -->
+                    <div class="swiper-slide bg-white/5 p-8 rounded-2xl border border-white/10 hover:border-gold/40 transition duration-300 flex flex-col justify-between h-full font-sans">
+                        <div class="text-left space-y-4 font-sans">
+                            <span class="text-xs uppercase text-gold tracking-widest mb-1 typography-label font-sans">Step Three</span>
+                            <h3 class="typography-h3 text-xl text-white font-serif">Advocate for Results</h3>
+                            <p class="text-gray-400 italic typography-small">Narrative Dominance in the Courtroom.</p>
+                            
+                            <!-- STYLED WITH PRECISE REQUIRED COPY -->
+                            <p class="method-p-text text-gray-300 font-light mb-6 leading-relaxed">
+                                We place this professional solution at the dead center of our advocacy - forcing prosecutors and judges to view you as a human being, whether at trial, during negotiations, or inside specialized diversion programs.
+                            </p>
+                            
+                            <!-- STYLED WITH EXPLAINED STRATEGIC OUTCOMES -->
+                            <div class="space-y-3 pt-4 border-t border-white/10 text-xs text-gray-300">
+                                <div class="p-3 border border-white/5 bg-white/5 rounded-xl flex items-start gap-3">
+                                    <span class="p-1 bg-navy border border-gold/40 text-gold rounded-lg mt-0.5"><i data-lucide="user-check" class="w-3.5 h-3.5"></i></span>
+                                    <div>
+                                        <span class="text-gold font-bold uppercase tracking-wider block text-[10px]">Court Humanization</span>
+                                        <p class="text-[11px] text-gray-400 mt-0.5">Shifting courtroom perception by presenting your complete factual and clinical background.</p>
+                                    </div>
+                                </div>
+                                <div class="p-3 border border-white/5 bg-white/5 rounded-xl flex items-start gap-3">
+                                    <span class="p-1 bg-navy border border-gold/40 text-gold rounded-lg mt-0.5"><i data-lucide="shield-check" class="w-3.5 h-3.5"></i></span>
+                                    <div>
+                                        <span class="text-gold font-bold uppercase tracking-wider block text-[10px]">Specialty Diversion</span>
+                                        <p class="text-[11px] text-gray-400 mt-0.5 font-sans">Securing formal Mental Health (PC 1001.36) or Military Diversion to dismiss charges entirely.</p>
+                                    </div>
+                                </div>
+                                <div class="p-3 border border-white/5 bg-white/5 rounded-xl flex items-start gap-3">
+                                    <span class="p-1 bg-navy border border-gold/40 text-gold rounded-lg mt-0.5"><i data-lucide="award" class="w-3.5 h-3.5 font-sans"></i></span>
+                                    <div>
+                                        <span class="text-gold font-bold uppercase tracking-wider block text-[10px]">Professional Shield</span>
+                                        <p class="text-[11px] text-gray-400 mt-0.5">Safeguarding medical, legal, and commercial licenses from state disciplinary boards.</p>
+                                    </div>
+                                </div>
+                                <div class="p-3 border border-white/5 bg-white/5 rounded-xl flex items-start gap-3">
+                                    <span class="p-1 bg-navy border border-gold/40 text-gold rounded-lg mt-0.5"><i data-lucide="globe" class="w-3.5 h-3.5 font-sans"></i></span>
+                                    <div>
+                                        <span class="text-gold font-bold uppercase tracking-wider block text-[10px]">Immigration Defense</span>
+                                        <p class="text-[11px] text-gray-400 mt-0.5">Mitigating deportation risks by tailoring all plea agreements to satisfy federal immigration law.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Styled with typography-small (15px) as requested -->
+                            <p class="italic mt-4 text-gray-400 method-p-text leading-relaxed">We use the clinical solutions and investigative work from previous steps to show the court the human that you are, advocating for recovery over conviction.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Pagination Dots shown on Mobile view only -->
+                <div class="swiper-pagination method-pagination lg:hidden mt-8 relative"></div>
+            </div>
+
+            <!-- Methodology Featured Video -->
+            <div class="mt-20 max-w-5xl mx-auto">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center bg-white/5 p-10 lg:p-16 rounded-3xl border border-white/10 shadow-2xl text-left font-sans">
+                    <div>
+                        <h4 class="text-gold mb-4 typography-label">Watch the Method in Action</h4>
+                        <!-- Big description mapping typography-h3 (22px / 700) -->
+                        <h2 class="mb-6 leading-tight typography-h3 font-serif font-bold">William V. Pernik Explains How We Use the <br><span class="text-gold italic font-serif">3-Steps Method</span></h2>
+                        <!-- Description narrative mapping typography-body (16px / 400) -->
+                        <p class="text-gray-400 leading-relaxed mb-8 font-light typography-body font-sans">
+                            Listen as our founding attorney discusses how we identify the root cause of legal issues and why focusing on clinical restoration leads to better outcomes than standard defense models.
+                        </p>
+                    </div>
+                    <div class="aspect-video bg-black rounded-xl overflow-hidden shadow-2xl relative group cursor-pointer" onclick="openVideoModal('https://www.youtube.com/embed/dQw4w9WgXcQ')">
+                        <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&q=80" class="absolute inset-0 w-full h-full object-cover opacity-60 animate-pulse-slow" alt="Video cover">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="w-20 h-20 bg-gold text-navy rounded-full flex items-center justify-center shadow-2xl transform transition group-hover:scale-110"><i class="fas fa-play text-2xl ml-1 font-sans"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INTERACTIVE "WHY CHOOSE US" -->
+    <section class="py-24 bg-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-20 font-sans">
+            <!-- Header mapping typography-h2 (38px / 700) -->
+            <h2 class="text-navy typography-h2 font-serif font-bold">Why Choose Pernik Law?</h2>
+            <!-- Subtitle mapping typography-label (11px / 600 / UC) -->
+            <p class="mt-4 text-gray-500 uppercase tracking-widest text-xs font-bold typography-label font-sans">Purpose-Driven defense with proven results</p>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 font-sans animate-fade-in-up">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 font-sans">
+                <!-- Card 1 -->
+                <div id="why-box-1" onclick="toggleWhyBox(1)" class="why-box p-10 bg-offWhite rounded shadow-lg border border-gray-100 group hover:border-gold transition-all duration-300 cursor-pointer text-left font-sans">
+                    <div class="flex justify-between items-start font-sans">
+                        <i data-lucide="heart-pulse" class="text-gold mb-6 w-12 h-12 animate-pulse"></i>
+                        <i id="why-chevron-1" data-lucide="chevron-down" class="text-gold/40 transition-transform duration-300 font-sans"></i>
+                    </div>
+                    <!-- Card Titles mapping typography-h4 (18px / 400) formatted as bold/normal -->
+                    <h4 class="text-navy mb-4 font-bold typography-h3">Experts in Mental Health Defense</h4>
+                    <p class="text-gray-600 leading-relaxed font-light typography-body font-sans font-light">We specialize where the law intersects with trauma, addiction, and behavioral health.</p>
+                    <!-- Expanded Description mapping typography-small (15px / 400) -->
+                    <div class="why-box-content hidden text-gray-500 leading-relaxed mt-4 typography-small font-light font-sans font-sans">
+                        As recognized pioneers in California’s diversion statutes, we actively pursue treatment-based solutions that resolve legal trouble at its core rather than just concluding a file. To support this mission, William has built an elite network of treatment experts and advocates through years of public speaking and recovery outreach. We don’t simply process a case; we manage a life, providing a defense that is as emotionally intelligent as it is legally rigorous to ensure your past is understood and your future is restored.
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div id="why-box-2" onclick="toggleWhyBox(2)" class="why-box p-10 bg-offWhite rounded shadow-lg border border-gray-100 group hover:border-gold transition-all duration-300 cursor-pointer text-left font-sans">
+                    <div class="flex justify-between items-start font-sans">
+                        <i data-lucide="fingerprint" class="text-gold mb-6 w-12 h-12"></i>
+                        <i id="why-chevron-2" data-lucide="chevron-down" class="text-gold/40 transition-transform duration-300"></i>
+                    </div>
+                    <!-- Card Titles mapping typography-h4 (18px / 400) formatted as bold/normal -->
+                    <h4 class="text-navy mb-4 font-bold typography-h3 font-serif">The "Counselor" Approach</h4>
+                    <p class="text-gray-600 leading-relaxed font-light typography-body font-sans font-sans">Fierce litigators who act as empathetic strategists for complex cases.</p>
+                    <!-- Expanded Description mapping typography-small (15px / 400) -->
+                    <div class="why-box-content hidden text-gray-500 leading-relaxed mt-4 typography-small font-light font-sans">
+                        What sets us apart is our holistic lens. While many firms are content to argue the "what" found in a police report and look for an easy way out, we dig deeper to understand <strong>why</strong> you are facing this crisis. We proactively deploy clinical and social solutions that prove to the court and to our clients that when the underlying struggle is addressed, the legal problem is solved at its source.
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div id="why-box-3" onclick="toggleWhyBox(3)" class="why-box p-10 bg-offWhite rounded shadow-lg border border-gray-100 group hover:border-gold transition-all duration-300 cursor-pointer text-left font-sans">
+                    <div class="flex justify-between items-start font-sans">
+                        <i data-lucide="target" class="text-gold mb-6 w-12 h-12"></i>
+                        <i id="why-chevron-3" data-lucide="chevron-down" class="text-gold/40 transition-transform duration-300"></i>
+                    </div>
+                    <!-- Card Titles mapping typography-h4 (18px / 400) formatted as bold/normal -->
+                    <h4 class="text-navy mb-4 font-bold typography-h3 font-serif">In-House Strategy & Discovery</h4>
+                    <p class="text-gray-600 leading-relaxed font-light typography-body font-sans">We never outsource your defense, ensuring every factual and legal gap is identified early.</p>
+                    <!-- Expanded Description mapping typography-small (15px / 400) -->
+                    <div class="why-box-content hidden text-gray-500 leading-relaxed mt-4 typography-small font-light font-sans">
+                        While others rely on police reports, we utilize a full-time investigator and dedicated research counsel to find the critical evidence the system misses. This internal collaboration allows us to produce high-level motion work that fundamentally shifts the narrative in your favor. By keeping these resources under one roof, we solve the "factual why" of your case with proactive, trial-tested precision.
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div id="why-box-4" onclick="toggleWhyBox(4)" class="why-box p-10 bg-offWhite rounded shadow-lg border border-gray-100 group hover:border-gold transition-all duration-300 cursor-pointer text-left font-sans">
+                    <div class="flex justify-between items-start font-sans">
+                        <i data-lucide="history" class="text-gold mb-6 w-12 h-12"></i>
+                        <i id="why-chevron-4" data-lucide="chevron-down" class="text-gold/40 transition-transform duration-300 font-sans font-sans"></i>
+                    </div>
+                    <!-- Card Titles mapping typography-h4 (18px / 400) formatted as bold/normal -->
+                    <h4 class="text-navy mb-4 font-bold typography-h3 font-serif">20+ Years Experience</h4>
+                    <p class="text-gray-600 leading-relaxed font-light typography-body font-sans">Rooted in public defense and elite private practice across Central California.</p>
+                    <!-- Expanded Description mapping typography-small (15px / 400) -->
+                    <div class="why-box-content hidden text-gray-500 leading-relaxed mt-4 typography-small font-light font-sans font-sans">
+                        Navigating complex criminal defense for over two decades across the South Bay and Central Coast. We have the institutional history and court respect to secure acquittals, dismissals, and strategic non-conviction outcomes.
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div id="why-box-5" onclick="toggleWhyBox(5)" class="why-box p-10 bg-offWhite rounded shadow-lg border border-gray-100 group hover:border-gold transition-all duration-300 cursor-pointer text-left font-sans">
+                    <div class="flex justify-between items-start font-sans">
+                        <i data-lucide="refresh-ccw" class="text-gold mb-6 w-12 h-12 animate-spin-slow"></i>
+                        <i id="why-chevron-5" data-lucide="chevron-down" class="text-gold/40 transition-transform duration-300"></i>
+                    </div>
+                    <!-- Card Titles mapping typography-h4 (18px / 400) formatted as bold/normal -->
+                    <h4 class="text-navy mb-4 font-bold typography-h3 font-serif font-sans">Breaking the Cycle</h4>
+                    <p class="text-gray-600 leading-relaxed font-light typography-body font-sans">Committed to systemic change and advocacy beyond the individual file.</p>
+                    <!-- Expanded Description mapping typography-small (15px / 400) -->
+                    <div class="why-box-content hidden text-gray-500 leading-relaxed mt-4 typography-small font-light font-sans">
+                        Our work is about more than a case number. We share our vision publicly through our podcast and channel to advocate for systemic change. By training the next generation of legal talent in this purpose-driven model, we are setting a new standard for the industry.
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div id="why-box-6" onclick="toggleWhyBox(6)" class="why-box p-10 bg-offWhite rounded shadow-lg border border-gray-100 group hover:border-gold transition-all duration-300 cursor-pointer text-left font-sans font-sans font-sans">
+                    <div class="flex justify-between items-start font-sans">
+                        <i data-lucide="shield" class="text-gold mb-6 w-12 h-12"></i>
+                        <i id="why-chevron-6" data-lucide="chevron-down" class="text-gold/40 transition-transform duration-300 font-sans"></i>
+                    </div>
+                    <!-- Card Titles mapping typography-h4 (18px / 400) formatted as bold/normal -->
+                    <h4 class="text-navy mb-4 font-bold typography-h3 font-serif">Proven Jury Results</h4>
+                    <p class="text-gray-600 leading-relaxed font-light typography-body font-sans font-light">Successful track record with thousands of clients and over 75 jury trials.</p>
+                    <!-- Expanded Description mapping typography-small (15px / 400) -->
+                    <div class="why-box-content hidden text-gray-500 leading-relaxed mt-4 typography-small font-light font-sans">
+                        Our expertise in complex matters—including violent crimes, veterans' cases, and gang allegations—is unmatched. We combine legal rigor with clinical insight to secure acquittals and dismissals that preserve professional licenses and life stability.
+                    </div>
+                </div>
+            </div>
+
+            <!-- INTEGRATED COLLABORATIVE GALLERY SLIDER -->
+            <div class="mt-20">
+                <div class="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-slate-50 animate-fade-in font-sans">
+                    <div class="swiper teamGallerySwiper h-[320px] md:h-[450px] lg:h-[520px]">
+                        <div class="swiper-wrapper">
+                            <!-- WORKSPACE SLIDE 1 -->
+                            <div class="swiper-slide">
+                                <div class="relative w-full h-full">
+                                    <!-- EASY TO EDIT IMAGES: Replace the URL in src="..." with your custom workspace image link -->
+                                    <img src="https://i.ibb.co/nMrFQvT6/DSF8027-1.jpg" alt="Pernik Law Conference Meeting" class="w-full h-full object-cover">
+                                    <div class="absolute inset-0 bg-navy/20"></div>
+                                </div>
+                            </div>
+                            <!-- WORKSPACE SLIDE 2 -->
+                            <div class="swiper-slide">
+                                <div class="relative w-full h-full">
+                                    <!-- EASY TO EDIT IMAGES: Replace the URL in src="..." with your custom workspace image link -->
+                                    <img src="https://i.ibb.co/4ZdkbkLR/353-A9862-2-1.jpg" alt="Pernik Law Legal Strategy session" class="w-full h-full object-cover">
+                                    <div class="absolute inset-0 bg-navy/20"></div>
+                                </div>
+                            </div>
+                            <!-- WORKSPACE SLIDE 3 -->
+                            <div class="swiper-slide">
+                                <div class="relative w-full h-full">
+                                    <!-- EASY TO EDIT IMAGES: Replace the URL in src="..." with your custom workspace image link -->
+                                    <img src="https://i.ibb.co/8gK9M546/DSF8060.jpg" alt="Pernik Law Team Working" class="w-full h-full object-cover">
+                                    <div class="absolute inset-0 bg-navy/20"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide indicator pagination dots -->
+                        <div class="swiper-pagination gallery-pagination !bottom-4 font-sans"></div>
+                    </div>
+                </div>
+                <!-- Aesthetic golden layout accent element -->
+                <div class="absolute -bottom-6 -left-6 w-32 h-32 gold-gradient opacity-10 -z-10 rounded-full animate-bounce"></div>
+
+                <!-- Strategic bottom copy positioned underneath the gallery block -->
+                <div class="mt-10 max-w-4xl mx-auto text-center px-4 md:px-0">
+                    <!-- Heading: Experienced. Passionate. Purpose-Driven. -->
+                    <h2 class="text-navy mb-4 typography-h2 font-serif font-bold text-navy font-serif">Experienced. Passionate. Purpose-Driven.</h2>
+                    <p class="text-gray-600 mb-4 leading-relaxed typography-body font-light">
+                        Facing criminal allegations in California is an elite-stakes crisis. With strict sentencing mandates and life-altering consequences on the line, you cannot rely on standard, passive defense tactics. You need an agile, highly sophisticated team of legal professionals who see you as a human being, not a case number.
+                    </p>
+                    <p class="text-gray-600 leading-relaxed typography-body font-light font-sans font-sans">
+                        At Pernik Law, we are a collective of trial lawyers, legal researchers, and forensic specialists driven by a singular mission: to deliver exceptional legal outcomes while solving the underlying root problems that caused the legal crisis in the first place.
+                    </p>
+                </div>
+            </div>
+
+            <!-- STRATEGIC CTA ROW: Under Why Choose Us / Gallery -->
+            <div class="mt-12 flex flex-col sm:flex-row gap-4 justify-center font-sans">
+                <a href="#hero-form-container" class="bg-navy hover:bg-gray-800 text-white px-10 py-4 font-bold uppercase tracking-widest transition rounded-sm shadow-xl typography-nav text-xs font-bold">
+                    Schedule Free Consultation
+                </a>
+                <a href="tel:8316121970" class="bg-gold hover:bg-goldDark text-navy px-10 py-4 font-bold uppercase tracking-widest transition rounded-sm shadow-xl typography-nav text-xs font-bold font-sans">
+                    <i class="fa-solid fa-phone mr-2 text-navy"></i> Call to Speak to a Specialist
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6: Local Jurisdictions Hub (REDESIGNED LOCATIONS SECTION WITH INTENSE REGIONAL KEYWORDS) -->
+    <section class="py-24 bg-navy overflow-hidden text-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 font-sans">
+            <div class="text-center mb-16 font-sans">
+                <!-- Subheading label mapping typography-label (11px / 600 / UC) -->
+                <h4 class="text-gold mb-4 typography-label">Where We Practice</h4>
+                <!-- Header mapping typography-h2 (38px / 700) -->
+                <h2 class="text-white typography-h2 font-serif font-bold">Local Jurisdictions & Regional Expertise</h2>
+                <!-- Narrative description mapping typography-body (16px / 400) -->
+                <p class="mt-6 text-gray-400 text-lg max-w-3xl mx-auto leading-relaxed font-light typography-body font-sans font-sans">
+                    Our attorneys possess deep, intrinsic ties to the local court systems, meaning we understand the unique cultures, judges, and prosecutors across our primary regions.
+                </p>
+                <div class="h-1 w-24 bg-gold mx-auto mt-6"></div>
+            </div>
+
+            <!-- Mobile & Tablet Touch Swiper Carousel -->
+            <div class="swiper locationsSwiper lg:hidden relative pb-12 font-sans font-sans font-sans">
+                <div class="swiper-wrapper">
+                    <!-- South Bay Area Card 1: Santa Clara County -->
+                    <div class="swiper-slide bg-white/5 rounded-xl border border-white/10 p-8 text-left flex flex-col justify-between h-auto font-sans font-sans">
+                        <div>
+                            <span class="text-gold font-bold typography-label block mb-2 font-sans">South Bay Area</span>
+                            <h3 class="typography-h3 text-xl mb-4 text-white font-serif font-serif font-serif">Santa Clara County <span class="text-gold text-sm block mt-1">(San Jose Office)</span></h3>
+                            <p class="typography-small text-gray-300 font-light leading-relaxed">One-third of our entire legal team lives, works, and actively teaches here. Two of our Santa Clara County defense attorneys are law professors in San Jose and proud graduates of the Santa Clara University School of Law. Our team features a former Santa Clara County Public Defender, unlocking an invaluable network of insider relationships across local courts, jails, mental health departments, and specialized diversion networks. Our founder, William Pernik, was himself raised and legally trained in the Bay Area, graduating from the University of San Francisco School of Law in 2006.</p>
+                        </div>
+                    </div>
+                    <!-- South Bay Area Card 2: San Mateo County -->
+                    <div class="swiper-slide bg-white/5 rounded-xl border border-white/10 p-8 text-left flex flex-col justify-between h-auto font-sans">
+                        <div>
+                            <span class="text-gold font-bold typography-label block mb-2 font-sans">South Bay Area</span>
+                            <h3 class="typography-h3 text-xl mb-4 text-white font-serif">San Mateo County</h3>
+                            <p class="typography-small text-gray-300 font-light leading-relaxed">A conservative District Attorney’s office operating within a progressive county, known for aggressive prosecution tactics and overcriminalization. Our team provides the fearless, sophisticated defense framework required to counter these heavy-handed tactics.</p>
+                        </div>
+                    </div>
+                    <!-- Central Coast Card 1: Monterey County -->
+                    <div class="swiper-slide bg-white/5 rounded-xl border border-white/10 p-8 text-left flex flex-col justify-between h-auto font-sans">
+                        <div>
+                            <span class="text-gold font-bold typography-label block mb-2 font-sans font-sans">Central Coast</span>
+                            <h3 class="typography-h3 text-xl mb-4 text-white font-serif">Monterey County <span class="text-gold text-sm block mt-1">(Salinas & Monterey Offices)</span></h3>
+                            <p class="typography-small text-gray-300 font-light leading-relaxed">Driven by an unmatched local footprint. Founder William Pernik is a former Monterey County Public Defender with an exceptional trial record and a proven history of securing creative resolutions in some of the toughest, most challenging cases—both in local trial courts and on complex state appeals. Our Monterey County lawyers live and work in Monterey County and have devoted years of their careers building personal and professional networks and relationships.</p>
+                        </div>
+                    </div>
+                    <!-- Central Coast Card 2: Santa Cruz County -->
+                    <div class="swiper-slide bg-white/5 rounded-xl border border-white/10 p-8 text-left flex flex-col justify-between h-auto font-sans font-sans">
+                        <div>
+                            <span class="text-gold font-bold typography-label block mb-2 font-sans">Central Coast</span>
+                            <h3 class="typography-h3 text-xl mb-4 text-white font-serif">Santa Cruz County</h3>
+                            <p class="typography-small text-gray-300 font-light leading-relaxed">A uniquely progressive jurisdiction where our team has successfully defended clients for more than a decade. We leverage the county’s robust infrastructure of community treatment networks to secure exceptional alternatives to incarceration.</p>
+                        </div>
+                    </div>
+                    <!-- Central Coast Card 3: San Benito County -->
+                    <div class="swiper-slide bg-white/5 rounded-xl border border-white/10 p-8 text-left flex flex-col justify-between h-auto font-sans animate-fade-in font-sans">
+                        <div>
+                            <span class="text-gold font-bold typography-label block mb-2">Central Coast</span>
+                            <h3 class="typography-h3 text-xl mb-4 text-white font-serif font-serif font-serif">San Benito County</h3>
+                            <p class="typography-small text-gray-300 font-light leading-relaxed">A smaller, close-knit county with a highly distinct legal culture and court structure where our team has proudly and continuously served clients for over ten years.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination mt-8 relative font-sans"></div>
+            </div>
+
+            <!-- Desktop Split Dashboard Layout (lg and up) -->
+            <div class="hidden lg:grid lg:grid-cols-2 gap-12 text-left font-sans mt-8">
+                <!-- South Bay Column -->
+                <div class="space-y-8 font-sans">
+                    <div class="border-b border-white/10 pb-4 mb-6 flex items-center justify-between">
+                        <h3 class="typography-h3 text-gold font-bold font-serif font-serif">South Bay Jurisdictions</h3>
+                        <span class="typography-label bg-white/5 px-3 py-1 rounded text-white text-[9px] font-sans">San Jose Office</span>
+                    </div>
+
+                    <!-- Santa Clara County -->
+                    <div class="bg-white/5 rounded-xl border border-white/10 p-8 hover:border-gold/40 transition duration-300 shadow-xl font-sans">
+                        <h4 class="typography-h4 font-bold text-white mb-3 text-lg flex items-center gap-3">
+                            <i class="fa-solid fa-scale-balanced text-gold animate-pulse"></i> Santa Clara County <span class="text-gold text-xs font-normal font-sans">(San Jose Office)</span>
+                        </h4>
+                        <p class="typography-small text-gray-300 font-light leading-relaxed">One-third of our entire legal team lives, works, and actively teaches here. Two of our Santa Clara County defense attorneys are law professors in San Jose and proud graduates of the Santa Clara University School of Law. Our team features a former Santa Clara County Public Defender, unlocking an invaluable network of insider relationships across local courts, jails, mental health departments, and specialized diversion networks. Our founder, William Pernik, was himself raised and legally trained in the Bay Area, graduating from the University of San Francisco School of Law in 2006.</p>
+                    </div>
+
+                    <!-- San Mateo County -->
+                    <div class="bg-white/5 rounded-xl border border-white/10 p-8 hover:border-gold/40 transition duration-300 shadow-xl font-sans">
+                        <h4 class="typography-h4 font-bold text-white mb-3 text-lg flex items-center gap-3 font-sans">
+                            <i class="fa-solid fa-gavel text-gold"></i> San Mateo County
+                        </h4>
+                        <p class="typography-small text-gray-300 font-light leading-relaxed">A conservative District Attorney’s office operating within a progressive county, known for aggressive prosecution tactics and overcriminalization. Our team provides the fearless, sophisticated defense framework required to counter these heavy-handed tactics.</p>
+                    </div>
+                </div>
+
+                <!-- Central Coast Column -->
+                <div class="space-y-8 font-sans font-sans">
+                    <div class="border-b border-white/10 pb-4 mb-6 flex items-center justify-between">
+                        <h3 class="typography-h3 text-gold font-bold font-serif animate-fade-in-up">Central Coast Jurisdictions</h3>
+                        <span class="typography-label bg-white/5 px-3 py-1 rounded text-white text-[9px] font-sans font-sans font-sans">Salinas & Monterey Offices</span>
+                    </div>
+
+                    <!-- Monterey County -->
+                    <div class="bg-white/5 rounded-xl border border-white/10 p-8 hover:border-gold/40 transition duration-300 shadow-xl font-sans font-sans">
+                        <h4 class="typography-h4 font-bold text-white mb-3 text-lg flex items-center gap-3 font-serif">
+                            <i class="fa-solid fa-map-pin text-gold font-sans font-sans"></i> Monterey County <span class="text-gold text-xs font-normal font-sans">(Salinas & Monterey Offices)</span>
+                        </h4>
+                        <p class="typography-small text-gray-300 font-light leading-relaxed">Driven by an unmatched local footprint. Founder William Pernik is a former Monterey County Public Defender with an exceptional trial record and a proven history of securing creative resolutions in some of the toughest, most challenging cases—both in local trial courts and on complex state appeals. Our Monterey County lawyers live and work in Monterey County and have devoted years of their careers building personal and professional networks and relationships.</p>
+                    </div>
+
+                    <!-- Santa Cruz County -->
+                    <div class="bg-white/5 rounded-xl border border-white/10 p-8 hover:border-gold/40 transition duration-300 shadow-xl font-sans font-sans">
+                        <h4 class="typography-h4 font-bold text-white mb-3 text-lg flex items-center gap-3 font-serif animate-pulse">
+                            <i class="fa-solid fa-users-viewfinder text-gold font-sans"></i> Santa Cruz County
+                        </h4>
+                        <p class="typography-small text-gray-300 font-light leading-relaxed">A uniquely progressive jurisdiction where our team has successfully defended clients for more than a decade. We leverage the county’s robust infrastructure of community treatment networks to secure exceptional alternatives to incarceration.</p>
+                    </div>
+
+                    <!-- San Benito County -->
+                    <div class="bg-white/5 rounded-xl border border-white/10 p-8 hover:border-gold/40 transition duration-300 shadow-xl font-sans font-sans">
+                        <h4 class="typography-h4 font-bold text-white mb-3 text-lg flex items-center gap-3 font-serif">
+                            <i class="fa-solid fa-landmark text-gold animate-bounce font-sans font-sans font-sans"></i> San Benito County
+                        </h4>
+                        <p class="typography-small text-gray-300 font-light leading-relaxed">A smaller, close-knit county with a highly distinct legal culture and court structure where our team has proudly and continuously served clients for over ten years.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- STRATEGIC CTA ROW: Under Locations split -->
+            <div class="mt-16 flex flex-col sm:flex-row gap-4 justify-center font-sans">
+                <a href="#hero-form-container" class="bg-gold text-navy px-10 py-4 font-bold uppercase tracking-widest hover:bg-goldDark transition rounded-sm shadow-xl typography-nav text-xs font-bold">
+                    Connect With Our Regional Attorneys
+                </a>
+                <a href="tel:8316121970" class="border border-white/30 text-white px-10 py-4 font-bold uppercase tracking-widest hover:bg-white hover:text-navy transition rounded-sm typography-nav text-xs"><i class="fa-solid fa-phone mr-2"></i> Direct Case Line: 831-612-1970</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 7: Collective Force & Authority Section -->
+    <section class="py-24 bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row gap-16 items-start">
+                <!-- Left Side: Magazine Spotlight -->
+                <div class="lg:w-2/5 w-full font-sans">
+                    <div class="bg-offWhite p-10 rounded-3xl border border-gray-100 shadow-2xl relative group font-sans">
+                        <div class="absolute top-6 left-6 bg-gold text-navy font-bold px-3 py-1 z-20 typography-label">Magazine Spotlight</div>
+                        <img src="https://dc-docs.dcatalog.com/Super-Lawyers/Super-Lawyers/1826ebea-d21b-41f3-920d-992c84f7c58e/ZPage_4.jpg?ver=6379178862" alt="Super Lawyer Magazine Cover showcasing California Criminal Defense Attorney William V. Pernik" class="w-full h-auto rounded shadow-lg group-hover:scale-[1.02] transition duration-500 relative z-10 font-sans">
+                        <div class="mt-8 text-center font-sans">
+                            <p class="text-navy font-bold uppercase text-xs tracking-widest mb-4 font-sans">Featured in Super Lawyers '25 & '26</p>
+                            <a href="#" class="inline-flex items-center text-gold font-bold uppercase tracking-[0.2em] text-[10px] border-b border-gold pb-1 hover:text-goldDark transition font-sans">
+                                Read Virtual Magazine <i class="fas fa-external-link-alt ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side: Expertise & Team Values -->
+                <div class="lg:w-3/5 w-full min-w-0 overflow-hidden space-y-12 text-left">
+                    <div>
+                        <!-- Section title formatted as requested labels (11px / 600 / UC) -->
+                        <h4 class="text-gold mb-4 typography-label">A Collective Force of Advocacy</h4>
+                        <!-- Heading mapping requested typography-h2 (38px / 700) -->
+                        <h2 class="text-navy mb-6 leading-tight typography-h2 font-serif font-bold font-serif">Elite Talent. Shared Vision.</h2>
+                        <!-- Narrative mapping typography-body (16px / 400) -->
+                        <p class="text-gray-600 leading-relaxed font-light mb-6 typography-body font-sans font-sans font-light">
+                            At Pernik Law, our individual recognitions are a direct result of our collective mission. Every one of our lawyers is trained to be both <span class="font-bold text-navy">fierce litigators and empathetic strategists.</span>
+                        </p>
+                        <p class="text-gray-600 leading-relaxed font-light typography-body font-sans font-sans font-light">
+                            We are unique because we proactively deploy clinical and social solutions that humanize our clients, proving to the court that when the underlying struggle is addressed, the legal problem is solved at its source.
+                        </p>
+                    </div>
+
+                    <!-- Swipeable Collective Force cards container on mobile view, grids on desktop -->
+                    <div class="swiper authoritySwiper relative w-full overflow-hidden font-sans">
+                        <div class="swiper-wrapper md:grid md:grid-cols-2 md:gap-8 md:!translate-x-0 md:!w-auto font-sans font-sans">
+                            <div class="swiper-slide authority-card h-auto font-sans">
+                                <!-- Card labels using typography-h4 (18px / 400) bold representation -->
+                                <h4 class="text-navy font-bold mb-2 flex items-center gap-3 typography-h4 font-serif">
+                                    <i data-lucide="award" class="text-gold w-5 h-5 flex-shrink-0 font-bold font-sans"></i> Certified Specialist
+                                </h4>
+                                <!-- Paragraph descriptions using typography-small (15px / 400) -->
+                                <p class="text-gray-500 leading-relaxed font-light typography-small">Certified by the State Bar of California—a distinction reserved for attorneys with proven expertise and trial experience.</p>
+                            </div>
+                            <div class="swiper-slide authority-card h-auto font-sans font-sans">
+                                <h4 class="text-navy font-bold mb-2 flex items-center gap-3 typography-h4 font-serif font-bold">
+                                    <i data-lucide="scale" class="text-gold w-5 h-5 flex-shrink-0 font-bold font-sans"></i> 75+ Jury Trials
+                                </h4>
+                                <p class="text-gray-500 leading-relaxed font-light typography-small">Extensive mastery in high-stakes litigation, from serious felonies to complex mental health cases.</p>
+                            </div>
+                            <div class="swiper-slide authority-card h-auto font-sans font-serif font-sans">
+                                <h4 class="text-navy font-bold mb-2 flex items-center gap-3 typography-h4 font-serif font-bold font-serif font-bold">
+                                    <i data-lucide="brain" class="text-gold w-5 h-5 flex-shrink-0 font-bold font-sans animate-pulse font-sans"></i> Clinical Authority
+                                </h4>
+                                <p class="text-gray-500 leading-relaxed font-light typography-small font-sans font-sans">Pioneering leaders in Diversion Statutes, focusing on trauma, neurodivergence, and recovery-driven outcomes.</p>
+                            </div>
+                            <div class="swiper-slide authority-card h-auto font-sans">
+                                <h4 class="text-navy font-bold mb-2 flex items-center gap-3 typography-h4 font-serif font-bold font-sans font-bold">
+                                    <i data-lucide="users" class="text-gold w-5 h-5 flex-shrink-0 font-bold font-sans"></i> Future Leaders
+                                </h4>
+                                <p class="text-gray-500 leading-relaxed font-light typography-small">We recruit and train the next generation of legal talent in the Counselor model to set a new standard for the industry.</p>
+                            </div>
+                        </div>
+                        <!-- Slide Indicators shown on Mobile devices only -->
+                        <div class="swiper-pagination md:!hidden mt-8 relative font-sans"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INTERACTIVE STATISTICS -->
+    <section id="stats-section" class="bg-navy py-20 text-white text-center font-sans font-sans font-sans">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-2 lg:grid-cols-4 gap-12 font-sans font-sans">
+            <div class="p-6">
+                <p class="text-5xl font-serif text-gold mb-3 font-bold"><span class="stat-counter" data-target="20">0</span>+</p>
+                <p class="text-xs uppercase tracking-[0.2em] opacity-60 font-bold">Years of Experience</p>
+            </div>
+            <div class="p-6">
+                <p class="text-5xl font-serif text-gold mb-3 font-bold"><span class="stat-counter" data-target="200">0</span>+</p>
+                <p class="text-xs uppercase tracking-[0.2em] opacity-60 font-bold animate-pulse font-sans">5-Star Reviews</p>
+            </div>
+            <div class="p-6">
+                <p class="text-5xl font-serif text-gold mb-3 font-bold"><span class="stat-counter" data-target="75">0</span>+</p>
+                <p class="text-xs uppercase tracking-[0.2em] opacity-60 font-bold font-sans">Jury Trials</p>
+            </div>
+            <div class="p-6 font-sans">
+                <p class="text-5xl font-serif text-gold mb-3 font-bold"><span class="stat-counter" data-target="1000">0</span>+</p>
+                <p class="text-xs uppercase tracking-[0.2em] opacity-60 font-bold">Clients Served</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 8: Practice Areas Grid -->
+    <section class="py-24 bg-white border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center font-sans">
+            <div class="text-center mb-16 font-sans">
+                <!-- Header mapping typography-h2 (38px / 700) -->
+                <h2 class="text-navy typography-h2 font-serif font-bold">Comprehensive Defense</h2>
+                <div class="h-1 w-20 bg-gold mx-auto mt-6 mb-4"></div>
+                <!-- Subtitle mapping typography-label (11px / 600 / UC) with enriched SEO tags -->
+                <p class="mt-4 text-gray-500 uppercase tracking-widest text-xs font-bold typography-label font-sans font-sans">Defending Clients in Santa Clara, Monterey, Santa Cruz & San Benito Counties | Top California DUI & Criminal Defense Lawyers</p>
+            </div>
+
+            <!-- Optimized sets carousel on Mobile View (under lg screens) -->
+            <div class="swiper practiceAreaSwiper lg:!hidden relative w-full pb-10">
+                <div id="mobile-practice-areas-slider" class="swiper-wrapper font-sans font-sans font-sans">
+                    <!-- Javascript chunks slides into sets of 4 (2x2 grid per slide) for clean mobile UI -->
+                </div>
+                <div class="swiper-pagination !bottom-0 font-sans"></div>
+            </div>
+
+            <!-- Static 4-column Grid layout on Large Screens (lg and up) -->
+            <div id="practice-areas-grid" class="hidden lg:grid lg:grid-cols-4 gap-4 text-left font-sans">
+                <!-- Populated via script -->
+            </div>
+        </div>
+    </section>
+
+    <!-- START COMPACT proven outcomes directory section -->
+    <section class="py-20 bg-offWhite border-t border-gray-100 relative font-sans font-sans">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h4 class="text-gold mb-4 typography-label">Factual & Clinical Benchmarks</h4>
+                <h2 class="text-navy typography-h2 font-serif font-bold font-serif font-serif font-serif">Proven Judicial Case Outcomes</h2>
+                <p class="mt-4 text-gray-500 max-w-2xl mx-auto typography-body font-light">A streamlined, professional index of strategic results achieved across our primary local California jurisdictions.</p>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-xl overflow-hidden border border-gray-200 animate-fade-in-up">
+                <div class="overflow-x-auto scrollbar-none">
+                    <table class="w-full text-left border-collapse min-w-[700px] font-sans">
+                        <thead>
+                            <tr class="bg-navy text-white typography-label border-b border-navy z-20 font-sans">
+                                <th class="p-6">Alleged Charge</th>
+                                <th class="p-6">Identified Root Cause</th>
+                                <th class="p-6">Strategic Judicial Outcome</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-100 text-sm typography-small font-light text-gray-700">
+                            <tr class="hover:bg-slate-50 transition-colors">
+                                <td class="p-6 font-semibold text-navy">Serious Felony Allegation</td>
+                                <td class="p-6 font-sans">Clinical Crisis & Untreated Trauma</td>
+                                <td class="p-6 text-goldDark font-semibold">Mental Health Diversion Granted; Case Dismissed, Professional License preserved.</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors">
+                                <td class="p-6 font-semibold text-navy animate-pulse">Aggravated DUI with Collision</td>
+                                <td class="p-6">Factual Lab Protocol Missteps & Protocol Errors</td>
+                                <td class="p-6 text-goldDark font-semibold">Evidence Suppressed; Charges Reduced, Career & License Preserved.</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors">
+                                <td class="p-6 font-semibold text-navy font-sans">Violent Felony Accusation</td>
+                                <td class="p-6">Witness Bias & False Motive Exposed via In-House Investigation</td>
+                                <td class="p-6 text-goldDark font-semibold">Exonerated Pre-Trial; Innocence Effectively Proven, No Criminal Record.</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors">
+                                <td class="p-6 font-semibold text-navy">Military/Veteran Offense</td>
+                                <td class="p-6 font-sans">Service-Related PTSD (Military Diversion)</td>
+                                <td class="p-6 text-goldDark font-semibold">Charges Dismissed; Full Restoration, Record Expunged.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END COMPACT proven outcomes directory section -->
+
+    <!-- Section 11: Meet the Team -->
+    <section class="py-24 bg-white overflow-hidden border-t border-gray-100 relative font-sans">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center font-sans font-sans">
+            <div class="mb-16">
+                <!-- Category label mapping typography-label (11px / 600 / UC) -->
+                <h4 class="text-gold mb-4 typography-label">Champions for Human Restoration</h4>
+                <!-- Header mapping typography-h2 (38px / 700) -->
+                <h2 class="text-navy typography-h2 font-serif font-bold animate-fade-in font-serif">Meet the Pernik Team</h2>
+                <!-- Narrative description mapping typography-body (16px / 400) with italic layout -->
+                <p class="mt-6 text-gray-500 italic max-w-2xl mx-auto leading-relaxed typography-body font-light font-sans font-sans font-sans">A specialized team of purpose-driven legal advocates, investigators, and researchers.</p>
+            </div>
+            
+            <!-- Optimized padding layout for mobile screens prevents squeezed cards -->
+            <div class="relative px-4 md:px-12 lg:px-16 font-sans">
+                <div class="swiper teamSwiper h-full">
+                    <div class="swiper-wrapper font-sans font-sans">
+                        <!-- William -->
+                        <div class="swiper-slide h-auto">
+                            <div class="team-card h-full font-sans">
+                                <div class="h-80 overflow-hidden relative">
+                                    <img src="https://i.ibb.co/k2ntqtBR/DSF8446.jpg" alt="William V. Pernik - California Criminal Defense Attorney" class="w-full h-full object-cover">
+                                </div>
+                                <div class="p-8 flex-grow text-left flex flex-col justify-between font-sans">
+                                    <div>
+                                        <!-- Title Name mapping typography-h3 (22px / 700) -->
+                                        <h3 class="text-navy mb-1 typography-h3 font-serif font-bold">William V. Pernik</h3>
+                                        <!-- Label mapping typography-label (11px / 600 / UC) -->
+                                        <p class="text-gold mb-4 typography-label">Founder & Certified Criminal Law Specialist</p>
+                                        <!-- Descriptions mapping typography-small (15px / 400) -->
+                                        <p class="text-gray-600 leading-relaxed typography-small font-light font-sans">William Pernik is the founding attorney and a Certified Specialist in Criminal Law with extensive experience as a public defender and private defense attorney. He specializes in complex and serious criminal cases, including violent crimes, gang cases, and cases involving mental health, substance abuse, and veterans, and is known for achieving acquittals, dismissals, and strategic case resolutions.</p>
+                                    </div>
+                                    <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between font-sans">
+                                        <a href="#hero-form-container" class="inline-flex items-center text-xs font-bold uppercase tracking-widest text-navy hover:text-gold transition-colors font-sans font-bold">
+                                            View Full Profile <i class="fas fa-chevron-right ml-2 text-gold font-sans font-sans font-sans font-sans"></i>
+                                        </a>
+                                        <div class="flex gap-4">
+                                            <a href="#" class="text-navy hover:text-gold transition"><i class="fab fa-linkedin text-lg font-sans"></i></a>
+                                            <a href="#" class="text-navy hover:text-gold transition font-sans"><i class="fab fa-youtube text-lg font-sans font-sans"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Alana -->
+                        <div class="swiper-slide h-auto animate-fade-in-up">
+                            <div class="team-card h-full font-sans">
+                                <div class="h-80 overflow-hidden relative group bg-gray-100 font-sans">
+                                    <img src="https://i.ibb.co/3YS0RSm8/DSF8463.jpg" alt="Alana Wilson - Criminal Defense Attorney California" class="w-full h-full object-cover">
+                                </div>
+                                <div class="p-8 flex-grow text-left flex flex-col justify-between font-sans">
+                                    <div>
+                                        <!-- Title Name mapping typography-h3 (22px / 700) -->
+                                        <h3 class="text-navy mb-1 typography-h3 font-serif font-bold font-serif font-serif font-bold">Alana Wilson</h3>
+                                        <!-- Label mapping typography-label (11px / 600 / UC) -->
+                                        <p class="text-gold mb-4 typography-label">Trial Attorney</p>
+                                        <!-- Descriptions mapping typography-small (15px / 400) -->
+                                        <p class="text-gray-600 leading-relaxed typography-small font-light">Alana Wilson is a criminal defense attorney with experience in public defender offices, legal clinics, and criminal defense advocacy. She specializes in cases involving mental health, juvenile and youthful offenders, and domestic matters, and is dedicated to providing strategic and personalized representation.</p>
+                                    </div>
+                                    <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between font-sans">
+                                        <a href="#hero-form-container" class="inline-flex items-center text-xs font-bold uppercase tracking-widest text-navy hover:text-gold transition-colors font-sans">
+                                            View Full Profile <i class="fas fa-chevron-right ml-2 text-gold"></i>
+                                        </a>
+                                        <div class="flex gap-4 font-sans font-sans">
+                                            <a href="#" class="text-navy hover:text-gold transition"><i class="fab fa-linkedin text-lg"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Dustin -->
+                        <div class="swiper-slide h-auto animate-fade-in">
+                            <div class="team-card h-full font-sans font-sans font-sans">
+                                <div class="h-80 overflow-hidden relative bg-slate-50 font-sans font-sans">
+                                    <img src="https://i.ibb.co/M5CyN3gS/DSF8490.jpg" alt="Dustin Ercolano - California Defense Attorney and Investigator" class="w-full h-full object-cover animate-fade-in-up">
+                                </div>
+                                <div class="p-8 flex-grow text-left flex flex-col justify-between font-sans">
+                                    <div>
+                                        <!-- Title Name mapping typography-h3 (22px / 700) -->
+                                        <h3 class="text-navy mb-1 typography-h3 font-serif font-bold font-serif font-bold">Dustin Ercolano</h3>
+                                        <!-- Label mapping typography-label (11px / 600 / UC) -->
+                                        <p class="text-gold mb-4 typography-label font-sans font-sans">Trial Attorney</p>
+                                        <!-- Descriptions mapping typography-small (15px / 400) -->
+                                        <p class="text-gray-600 leading-relaxed typography-small font-light font-sans font-sans">Dustin Ercolano is a criminal defense attorney with experience in public defender offices and legal clinics, including appellate and post-conviction work. He specializes in complex criminal matters and cases involving veterans and active-duty service members, and is committed to strategic, thorough, and client-focused defense.</p>
+                                    </div>
+                                    <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between font-sans">
+                                        <a href="#hero-form-container" class="inline-flex items-center text-xs font-bold uppercase tracking-widest text-navy hover:text-gold transition-colors">
+                                            View Full Profile <i class="fas fa-chevron-right ml-2 text-gold"></i>
+                                        </a>
+                                        <div class="flex gap-4">
+                                            <a href="#" class="text-navy hover:text-gold transition"><i class="fab fa-linkedin text-lg"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Ashley -->
+                        <div class="swiper-slide h-auto animate-fade-in-up font-sans">
+                            <div class="team-card h-full">
+                                <div class="h-80 overflow-hidden relative bg-gray-100 font-sans">
+                                    <img src="https://i.ibb.co/jkM5m3wQ/DSF8460.jpg" alt="Ashley Cameron - Legal Research and Motions Attorney California" class="w-full h-full object-cover">
+                                </div>
+                                <div class="p-8 flex-grow text-left flex flex-col justify-between font-sans font-sans animate-fade-in">
+                                    <div>
+                                        <!-- Title Name mapping typography-h3 (22px / 700) -->
+                                        <h3 class="text-navy mb-1 typography-h3 font-serif font-bold animate-pulse font-serif">Ashley Cameron</h3>
+                                        <!-- Label mapping typography-label (11px / 600 / UC) -->
+                                        <p class="text-gold mb-4 typography-label">Attorney & Lead Researcher</p>
+                                        <!-- Descriptions mapping typography-small (15px / 400) -->
+                                        <p class="text-gray-600 leading-relaxed typography-small font-light">Ashley provides high-level research and persuasive writing that identifies strategic gaps standard defense models often miss. In her role, she crafts precise, compelling motions to ensure every legal argument is strategically sound. A former President of the Monterey County Women Lawyers Association, her commitment to collaborative advocacy is a cornerstone of the Pernik Law method.</p>
+                                    </div>
+                                    <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between font-sans font-sans">
+                                        <a href="#hero-form-container" class="inline-flex items-center text-xs font-bold uppercase tracking-widest text-navy hover:text-gold transition-colors">
+                                            View Full Profile <i class="fas fa-chevron-right ml-2 text-gold"></i>
+                                        </a>
+                                        <div class="flex gap-4">
+                                            <a href="#" class="text-navy hover:text-gold transition"><i class="fab fa-linkedin text-lg"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Placeholder Attorney 5 -->
+                        <div class="swiper-slide h-auto font-sans font-sans">
+                            <div class="team-card h-full">
+                                <div class="h-80 overflow-hidden relative bg-slate-100 flex items-center justify-center font-sans">
+                                    <img src="https://i.ibb.co/0yPVmPT2/353A9670.jpg" alt="Alexander Martin - California Criminal Defense Lawyer" class="w-full h-full object-cover">
+                                </div>
+                                <div class="p-8 flex-grow text-left flex flex-col justify-between font-sans">
+                                    <div>
+                                        <h3 class="text-navy mb-1 typography-h3 font-serif font-bold font-serif font-bold">Alexander Martin</h3>
+                                        <p class="text-gold mb-4 typography-label">Trial Attorney</p>
+                                        <p class="text-gray-600 leading-relaxed typography-small font-light">Bringing aggressive courtroom advocacy and deep analytical legal research. Our associate works in absolute coordination with the rest of the litigation team to handle pre-trial dismissals, preliminary hearings, and tactical diversion petitions under California specialty criminal courts.</p>
+                                    </div>
+                                    <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between font-sans animate-fade-in">
+                                        <a href="#hero-form-container" class="inline-flex items-center text-xs font-bold uppercase tracking-widest text-navy hover:text-gold transition-colors font-sans">
+                                            View Full Profile <i class="fas fa-chevron-right ml-2 text-gold font-sans font-sans"></i>
+                                        </a>
+                                        <div class="flex gap-4 font-sans font-sans">
+                                            <a href="#" class="text-navy hover:text-gold transition"><i class="fab fa-linkedin text-lg"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Placeholder Attorney 6 -->
+                        <div class="swiper-slide h-auto font-sans font-sans font-sans">
+                            <div class="team-card h-full font-sans font-sans">
+                                <div class="h-80 overflow-hidden relative bg-slate-100 flex items-center justify-center font-sans">
+                                    <img src="https://i.ibb.co/vCtDLnwb/353-A9768-2.jpg" alt="Nas Yasin - White Collar & Felony Defense Lawyer California" class="w-full h-full object-cover">
+                                </div>
+                                <div class="p-8 flex-grow text-left flex flex-col justify-between">
+                                    <div>
+                                        <h3 class="text-navy mb-1 typography-h3 font-serif font-bold animate-pulse font-serif font-bold">Nas Yasin</h3>
+                                        <p class="text-gold mb-4 typography-label">Trial Attorney</p>
+                                        <p class="text-gray-600 leading-relaxed typography-small font-light font-sans font-sans">Offering structured, highly focused criminal defense representation in complex fraud, white collar litigation, and high-stakes felony trials. With decades of state and federal practice experience, they deliver sophisticated motion work and trial strategy across California major jurisdictions.</p>
+                                    </div>
+                                    <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between font-sans font-sans">
+                                        <a href="#hero-form-container" class="inline-flex items-center text-xs font-bold uppercase tracking-widest text-navy hover:text-gold transition-colors">
+                                            View Full Profile <i class="fas fa-chevron-right ml-2 text-gold animate-ping"></i>
+                                        </a>
+                                        <div class="flex gap-4">
+                                            <a href="#" class="text-navy hover:text-gold transition"><i class="fab fa-linkedin text-lg animate-bounce"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pb-10 font-sans"></div>
+                    <div class="swiper-pagination font-sans"></div>
+                </div>
+                <!-- Unique team slider arrows -->
+                <div class="team-next swiper-button-next !text-gold"></div>
+                <div class="team-prev swiper-button-prev !text-gold"></div>
+            </div>
+
+            <!-- STRATEGIC CTA ROW: Next to Team -->
+            <div class="mt-12 flex flex-col sm:flex-row gap-4 justify-center font-sans">
+                <a href="#hero-form-container" class="bg-navy hover:bg-gray-800 text-white px-8 py-4 font-bold uppercase tracking-widest transition rounded-sm shadow-xl typography-nav text-xs font-bold">
+                    Schedule Consultation With Our Lawyers
+                </a>
+                <a href="tel:8316121970" class="border border-navy text-navy px-8 py-4 font-bold uppercase tracking-widest transition rounded-sm hover:bg-navy hover:text-white typography-nav text-xs font-bold font-sans">
+                    <i class="fa-solid fa-phone mr-2"></i> Click to Call: 831-612-1970
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 12: Legal Education Hub Snippet -->
+    <section class="py-24 bg-offWhite border-t border-gray-200 text-center font-sans font-sans">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <!-- Subheading label mapping typography-label (11px / 600 / UC) -->
+                <h4 class="text-gold mb-4 typography-label">Firm Insights & Media</h4>
+                <!-- Header mapping typography-h2 (38px / 700) -->
+                <h2 class="text-navy typography-h2 font-serif font-bold">The Legal Education Hub</h2>
+                <!-- Sub description mapping typography-body (16px / 400) with italic look -->
+                <p class="text-gray-500 max-w-2xl mx-auto text-lg italic leading-relaxed typography-body font-light font-serif">"Explore legal strategies, firm media, and case law educational videos."</p>
+            </div>
+            
+            <!-- Mobile-first swipeable Swiper carousel layout for screens below lg -->
+            <div class="swiper legalHubSwiper lg:hidden relative pb-12 font-sans font-sans font-sans">
+                <div class="swiper-wrapper">
+                    <!-- Item 1: Private vs Public -->
+                    <div class="swiper-slide h-auto">
+                        <div class="bg-navy rounded-2xl overflow-hidden shadow-xl group cursor-pointer relative min-h-[300px] h-full flex flex-col justify-end text-left" onclick="openVideoModal('https://www.youtube.com/embed/dQw4w9WgXcQ')">
+                            <img src="https://images.unsplash.com/photo-1589216532372-1c2a367900d9?auto=format&fit=crop&q=80" class="absolute inset-0 w-full h-full object-cover opacity-50 transition group-hover:scale-105 duration-700 font-sans" alt="Insider Perspective">
+                            <div class="absolute inset-0 p-8 flex flex-col justify-end bg-gradient-to-t from-navy to-transparent text-left font-sans">
+                                <div class="w-12 h-12 bg-gold rounded-full flex items-center justify-center text-navy mb-4 shadow-xl"><i class="fas fa-play ml-1"></i></div>
+                                <h4 class="text-xl font-serif text-white leading-tight">Private Lawyer vs. Public Defender: An Insider's Perspective</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 2: Mental Health Diversion -->
+                    <div class="swiper-slide h-auto">
+                        <div class="bg-white p-8 rounded-2xl shadow-xl flex flex-col justify-between border border-gray-100 hover:border-gold transition text-left h-full min-h-[300px]">
+                            <div>
+                                <h4 class="text-navy font-bold mb-4 font-serif text-lg font-serif">How Mental Health Diversion (PC 1001.36) Works</h4>
+                            </div>
+                            <a href="#" class="text-navy uppercase border-b border-gold pb-1 self-start typography-label mt-auto font-sans">Read More</a>
+                        </div>
+                    </div>
+                    <!-- Item 3: News appearance -->
+                    <div class="swiper-slide h-auto">
+                        <div class="bg-white p-8 rounded-2xl shadow-xl flex flex-col justify-between border border-gray-100 hover:border-gold transition text-left h-full min-h-[300px]">
+                            <div>
+                                <h4 class="text-navy font-bold mb-4 font-serif text-lg">Pernik Law Featured in Central Coast News</h4>
+                            </div>
+                            <a href="#" class="text-navy uppercase border-b border-gold pb-1 self-start typography-label mt-auto font-sans font-bold">View Appearance</a>
+                        </div>
+                    </div>
+                    <!-- Item 4: Criminal Threats -->
+                    <div class="swiper-slide h-auto">
+                        <div class="bg-navy rounded-2xl overflow-hidden shadow-xl group cursor-pointer relative min-h-[300px] h-full flex flex-col justify-end text-left" onclick="openVideoModal('https://www.youtube.com/embed/dQw4w9WgXcQ')">
+                            <img src="https://images.unsplash.com/photo-1505664194779-8beaceb93744?auto=format&fit=crop&q=80" class="absolute inset-0 w-full h-full object-cover opacity-40 transition group-hover:scale-105 duration-700 font-sans" alt="Criminal Threats">
+                            <div class="absolute inset-0 p-8 flex flex-col justify-end text-left bg-gradient-to-t from-navy/80 to-transparent">
+                                <i class="fas fa-play text-gold text-2xl mb-4 font-sans"></i>
+                                <p class="text-white typography-small font-serif">Understanding Criminal Threats</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 5: Forensic Strategy -->
+                    <div class="swiper-slide h-auto font-sans font-sans font-sans">
+                        <div class="bg-navy rounded-2xl overflow-hidden shadow-xl group cursor-pointer relative min-h-[300px] h-full flex flex-col justify-end text-left font-sans" onclick="openVideoModal('https://www.youtube.com/embed/dQw4w9WgXcQ')">
+                            <img src="https://images.unsplash.com/photo-1453948576620-15d6a030f2c9?auto=format&fit=crop&q=80" class="absolute inset-0 w-full h-full object-cover opacity-40 transition group-hover:scale-105 duration-700" alt="Forensic Strategy">
+                            <div class="absolute inset-0 p-8 flex flex-col justify-end text-left bg-gradient-to-t from-navy/80 to-transparent">
+                                <i class="fas fa-play text-gold text-2xl mb-4"></i>
+                                <p class="text-white typography-small font-serif">Forensic Strategy</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 6: CTA card -->
+                    <div class="swiper-slide h-auto">
+                        <div class="bg-gold p-10 rounded-2xl flex flex-col justify-between shadow-2xl text-navy gap-6 h-full min-h-[300px] text-left font-sans font-sans">
+                            <div>
+                                <h4 class="text-navy font-bold text-2xl font-serif">Deepen Your Knowledge</h4>
+                            </div>
+                            <a href="#" class="bg-navy text-white px-8 py-4 font-bold uppercase tracking-widest rounded shadow-xl hover:bg-gray-800 transition typography-label mt-auto self-start">Enter Hub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination legal-hub-pagination mt-8 relative"></div>
+            </div>
+            
+            <!-- Static 4-column desktop layout remains unchanged -->
+            <div class="hidden lg:grid lg:grid-cols-4 gap-6 font-sans text-left">
+                <div class="bg-navy rounded-2xl overflow-hidden shadow-xl group cursor-pointer relative lg:col-span-2 min-h-[300px]" onclick="openVideoModal('https://www.youtube.com/embed/dQw4w9WgXcQ')">
+                    <img src="https://images.unsplash.com/photo-1589216532372-1c2a367900d9?auto=format&fit=crop&q=80" class="absolute inset-0 w-full h-full object-cover opacity-50 transition group-hover:scale-105 duration-700" alt="Insider Perspective">
+                    <div class="absolute inset-0 p-8 flex flex-col justify-end bg-gradient-to-t from-navy to-transparent text-left">
+                        <div class="w-12 h-12 bg-gold rounded-full flex items-center justify-center text-navy mb-4 shadow-xl"><i class="fas fa-play ml-1"></i></div>
+                        <!-- Titles in grid mapping typography-h4 (18px / 400) or bolded representation -->
+                        <h4 class="text-white leading-tight font-bold typography-h4 font-serif">Private Lawyer vs. Public Defender: An Insider's Perspective</h4>
+                    </div>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-xl flex flex-col justify-between border border-gray-100 hover:border-gold transition text-left">
+                    <div>
+                        <!-- Title map to typography-h4 (18px / 400) bold representation -->
+                        <h4 class="text-navy font-bold mb-4 typography-h4 font-serif">How Mental Health Diversion (PC 1001.36) Works</h4>
+                    </div>
+                    <a href="#" class="text-navy uppercase border-b border-gold pb-1 self-start typography-label animate-fade-in-up">Read More</a>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-xl flex flex-col justify-between border border-gray-100 hover:border-gold transition text-left">
+                    <div>
+                        <h4 class="text-navy font-bold mb-4 typography-h4 font-serif">Pernik Law Featured in Central Coast News</h4>
+                    </div>
+                    <a href="#" class="text-navy uppercase border-b border-gold pb-1 self-start typography-label">View Appearance</a>
+                </div>
+                <div class="bg-navy rounded-2xl overflow-hidden shadow-xl group cursor-pointer relative h-[250px]" onclick="openVideoModal('https://www.youtube.com/embed/dQw4w9WgXcQ')">
+                    <img src="https://images.unsplash.com/photo-1505664194779-8beaceb93744?auto=format&fit=crop&q=80" class="absolute inset-0 w-full h-full object-cover opacity-40 transition group-hover:scale-105 duration-700" alt="Criminal Threats">
+                    <div class="absolute inset-0 p-8 flex flex-col justify-end text-left bg-gradient-to-t from-navy/80 to-transparent font-sans font-sans">
+                        <i class="fas fa-play text-gold text-2xl mb-4"></i>
+                        <p class="text-white typography-small font-serif">Understanding Criminal Threats</p>
+                    </div>
+                </div>
+                <div class="bg-navy rounded-2xl overflow-hidden shadow-xl group cursor-pointer relative h-[250px]" onclick="openVideoModal('https://www.youtube.com/embed/dQw4w9WgXcQ')">
+                    <img src="https://images.unsplash.com/photo-1453948576620-15d6a030f2c9?auto=format&fit=crop&q=80" class="absolute inset-0 w-full h-full object-cover opacity-40 transition group-hover:scale-105 duration-700" alt="Forensic Strategy">
+                    <div class="absolute inset-0 p-8 flex flex-col justify-end text-left bg-gradient-to-t from-navy/80 to-transparent">
+                        <i class="fas fa-play text-gold text-2xl mb-4 font-sans font-sans"></i>
+                        <p class="text-white typography-small font-serif font-serif font-serif">Forensic Strategy</p>
+                    </div>
+                </div>
+                <div class="lg:col-span-2 bg-gold p-10 rounded-2xl flex flex-col md:flex-row items-center justify-between shadow-2xl text-navy gap-6 font-sans">
+                    <div class="text-left font-sans"><h4 class="text-navy font-bold text-2xl pt-serif-title font-sans">Deepen Your Knowledge</h4></div>
+                    <a href="#" class="bg-navy text-white px-8 py-4 font-bold uppercase tracking-widest rounded shadow-xl hover:bg-gray-800 transition typography-label font-sans font-sans">Enter Hub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 13: FAQ -->
+    <section class="py-24 bg-white font-sans font-sans">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <!-- Header mapping typography-h2 (38px / 700) -->
+            <h2 class="text-navy mb-20 typography-h2 font-serif font-bold">Frequently Asked Questions</h2>
+            <div class="space-y-6 text-left" id="faq-list">
+                <!-- FAQ 1 -->
+                <div class="border border-gray-100 rounded shadow-sm overflow-hidden bg-white animate-fade-in-up">
+                    <button onclick="toggleFaq(1)" class="w-full p-8 text-left flex justify-between items-center hover:bg-offWhite transition group font-sans">
+                        <!-- Question mapping typography-h4 (18px / 400) bolded representation -->
+                        <span class="text-navy font-bold group-hover:text-gold transition typography-h4 font-serif">I’ve just been arrested. What are the first three things I should do?</span>
+                        <i id="faq-icon-1" class="fas fa-chevron-down text-gold"></i>
+                    </button>
+                    <!-- Answers mapping typography-body (16px / 400) -->
+                    <div id="faq-ans-1" class="hidden p-8 text-gray-600 bg-offWhite border-t border-gray-100 typography-body font-sans font-light">
+                        1. Exercise your right to remain silent. Do not attempt to "explain" your way out of the situation.<br>
+                        2. Request an attorney immediately.<br>
+                        3. Write down everything you remember about the arrest while it's fresh, but only share this with your lawyer. At Pernik Law, we can step in the moment you are contacted by law enforcement to protect your rights.
+                    </div>
+                </div>
+                <!-- FAQ 2 -->
+                <div class="border border-gray-100 rounded shadow-sm overflow-hidden bg-white">
+                    <button onclick="toggleFaq(2)" class="w-full p-8 text-left flex justify-between items-center hover:bg-offWhite transition group animate-fade-in font-sans">
+                        <span class="text-navy font-bold group-hover:text-gold transition typography-h4 font-serif animate-fade-in-up">Does Pernik Law offer free consultations?</span>
+                        <i id="faq-icon-2" class="fas fa-chevron-down text-gold"></i>
+                    </button>
+                    <div id="faq-ans-2" class="hidden p-8 text-gray-600 bg-offWhite border-t border-gray-100 typography-body font-sans font-light font-sans font-sans">
+                        Yes. We provide a free, confidential initial consultation. We believe everyone deserves to understand their legal standing before making a financial commitment. You can schedule yours by calling one of our offices or via our website.
+                    </div>
+                </div>
+                <!-- FAQ 3 -->
+                <div class="border border-gray-100 rounded shadow-sm overflow-hidden bg-white">
+                    <button onclick="toggleFaq(3)" class="w-full p-8 text-left flex justify-between items-center hover:bg-offWhite transition group">
+                        <span class="text-navy font-bold group-hover:text-gold transition typography-h4 font-serif">What areas of California does Pernik Law serve?</span>
+                        <i id="faq-icon-3" class="fas fa-chevron-down text-gold"></i>
+                    </button>
+                    <div id="faq-ans-3" class="hidden p-8 text-gray-600 bg-offWhite border-t border-gray-200 typography-body font-sans font-light">
+                        We primarily serve the Central Coast and Bay Area, including Monterey, Salinas, Santa Cruz, San Jose, Palo Alto, and Sunnyvale. We are deeply familiar with the local judges and prosecutors in the Monterey and Santa Clara County court systems.
+                    </div>
+                </div>         
+                <!-- Hidden FAQs -->
+                <div id="more-faqs" class="hidden space-y-6 text-left">
+                    <div class="border border-gray-100 rounded shadow-sm overflow-hidden bg-white">
+                        <button onclick="toggleFaq(4)" class="w-full p-8 text-left flex justify-between items-center hover:bg-offWhite transition group font-sans">
+                            <span class="text-navy font-bold group-hover:text-gold transition typography-h4 font-serif">Can a lawyer help me avoid jail time for a first-time DUI?</span>
+                            <i id="faq-icon-4" class="fas fa-chevron-down text-gold"></i>
+                        </button>
+                        <div id="faq-ans-4" class="hidden p-8 text-gray-600 bg-offWhite border-t border-gray-100 typography-body font-sans font-light">
+                            Yes. In many California jurisdictions like Monterey and Santa Clara County, we explore "diversion programs" or alternative sentencing. Attorney William Pernik specializes in Mental Health Diversion and Veterans Treatment Courts, which can often lead to treatment instead of incarceration and, in some cases, a dismissal of charges.
+                        </div>
+                    </div>
+                    <div class="border border-gray-100 rounded shadow-sm overflow-hidden bg-white">
+                        <button onclick="toggleFaq(5)" class="w-full p-8 text-left flex justify-between items-center hover:bg-offWhite transition group font-sans">
+                            <span class="text-navy font-bold group-hover:text-gold transition typography-h4 font-serif">Does William Pernik handle "Specialty Courts" like Mental Health or Veterans Court?</span>
+                            <i id="faq-icon-5" class="fas fa-chevron-down text-gold"></i>
+                        </button>
+                        <div id="faq-ans-5" class="hidden p-8 text-gray-600 bg-offWhite border-t border-gray-205 typography-body font-sans font-light">
+                            Absolutely. Attorney William Pernik is a Certified Specialist in Criminal Law and has a dedicated focus on cases involving mental health issues, PTSD, and substance abuse. We advocate for clients to enter diversion programs that prioritize rehabilitation over punishment.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-12 font-sans font-sans">
+                <!-- CTA buttons typography mapping typography-label (11px / 600 / UC) -->
+                <button id="show-faq-btn" onclick="toggleMoreFaqs()" class="text-navy border-b-2 border-gold pb-2 hover:text-gold transition typography-label font-bold">Show More Questions</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 14: CTA & Intake Form Block (New Layout with Unique Copy) -->
+    <section class="py-24 bg-navy relative overflow-hidden text-center font-sans font-sans">
+        <div class="absolute inset-0 opacity-10"><i class="fas fa-scale-balanced text-[400px] absolute -right-20 -bottom-20 rotate-12 text-white pointer-events-none font-sans font-sans"></i></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 font-sans">
+            <div class="bg-white rounded-3xl shadow-2xl overflow-hidden flex flex-col lg:flex-row border-b-8 border-gold">
+                <div class="lg:w-1/2 p-12 lg:p-20 text-left text-navy flex flex-col justify-between font-sans font-sans font-sans">
+                    <div>
+                        <h4 class="text-gold font-bold typography-label mb-4">Secure Your Restoration Roadmap</h4>
+                        <h2 class="mb-8 leading-tight text-navy typography-h2 font-serif font-bold font-serif font-bold">Your Future is More Than <br>a Case File. <span class="text-gold italic font-serif">Let's Protect It.</span></h2>
+                        <p class="typography-body text-gray-600 mb-8 font-light">
+                            Our unique root-cause approach starts with a detailed, private conversation. Together, we will locate the clinical or factual inconsistencies necessary to reshape your defense strategy and secure your peace of mind.
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-6 justify-start font-sans">
+                        <div class="w-16 h-16 gold-gradient rounded-full flex items-center justify-center shadow-xl text-white"><i class="fas fa-phone-alt text-2xl font-sans"></i></div>
+                        <div class="text-left font-sans font-sans">
+                            <p class="text-gold uppercase font-bold typography-label">Direct Legal Strategy Hotline</p>
+                            <p class="text-navy font-bold text-3xl pt-serif-title font-bold">831-612-1970</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 w-full p-12 lg:p-20 bg-gray-50 border-l border-gray-200 text-left font-sans">
+                    <h3 class="text-navy mb-8 text-left typography-h3 font-bold font-sans">Request a Confidential Consultation</h3>
+                    <form class="space-y-6" onsubmit="event.preventDefault();" class="font-sans font-sans">
+                        <div class="grid grid-cols-2 gap-6">
+                            <input type="text" placeholder="First Name" required class="p-5 border border-gray-200 rounded-lg outline-none focus:border-gold transition bg-white text-sm typography-body">
+                            <input type="text" placeholder="Last Name" required class="p-5 border border-gray-200 rounded-lg outline-none focus:border-gold transition bg-white text-sm typography-body">
+                        </div>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 font-sans font-sans">
+                            <input type="email" placeholder="Email Address" required class="w-full p-5 border border-gray-200 rounded-lg outline-none focus:border-gold transition bg-white text-sm typography-body">
+                            <input type="tel" placeholder="Phone Number" required class="w-full p-5 border border-gray-200 rounded-lg outline-none focus:border-gold transition bg-white text-sm typography-body font-sans">
+                        </div>
+                        <textarea placeholder="Briefly share any relevant context or immediate court deadlines..." rows="4" class="w-full p-5 border border-gray-200 rounded-lg outline-none focus:border-gold transition bg-white text-sm typography-body font-sans"></textarea>
+                        
+                        <button type="submit" class="w-full gold-gradient text-navy font-bold py-6 rounded-lg uppercase tracking-[0.2em] hover:brightness-110 shadow-2xl transition-all typography-nav font-sans">
+                            Submit Request
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-navy pt-24 pb-12 text-white border-t border-white/10 font-sans font-sans font-sans">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-16 mb-24 font-sans font-sans">
+                <!-- Location 1 -->
+                <div class="space-y-8 text-left">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center text-gold"><i data-lucide="map-pin" class="w-6 h-6"></i></div>
+                        <!-- Footer Header mapping typography-h3 (22px / 700) formatted custom size -->
+                        <h5 class="text-gold font-bold typography-h3 uppercase tracking-widest font-sans font-sans" style="font-size: 24px !important;">Salinas</h5>
+                    </div>
+                    <!-- Small caption placeholder mapping typography-small (15px / 400) -->
+                    <div class="rounded-xl h-48 bg-gray-900 flex items-center justify-center italic text-gray-500 border border-white/5 typography-small font-sans">Map: Salinas Coastal Support</div>
+                    <div class="space-y-3 font-light">
+                        <p class="text-gray-200 font-bold uppercase tracking-widest typography-label">40 Central Ave Suite 4, Salinas, CA 93901</p>
+                        <p class="text-gray-400 font-light leading-relaxed typography-small">Serving Santa Cruz, Watsonville, and the Salinas corridor.</p>
+                        <!-- Big text mapping PT Serif large size -->
+                        <p class="text-gold font-bold text-lg pt-serif-title font-bold">P: 831-480-9165</p>
+                    </div>
+                </div>
+
+                <!-- Location 2 -->
+                <div class="space-y-8 text-left font-sans">
+                    <div class="flex items-center gap-4 font-sans">
+                        <div class="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center text-gold"><i data-lucide="map-pin" class="w-6 h-6 animate-pulse"></i></div>
+                        <h5 class="text-gold font-bold typography-h3 uppercase tracking-widest" style="font-size: 24px !important;">Monterey</h5>
+                    </div>
+                    <div class="rounded-xl h-48 bg-gray-900 flex items-center justify-center italic text-gray-500 border border-white/5 typography-small font-sans">Map: Monterey Headquarters</div>
+                    <div class="space-y-3 font-light font-sans">
+                        <p class="text-white font-bold uppercase tracking-widest typography-label">215 W. Franklin Street 5th Floor Suite 502 Monterey, CA 93940</p>
+                        <p class="text-gray-400 font-light leading-relaxed typography-small">Monterey, Carmel, and the Central Coast heartland.</p>
+                        <p class="text-gold font-bold text-lg pt-serif-title font-bold font-bold font-bold font-bold font-bold font-bold">P: 831-480-9217</p>
+                    </div>
+                </div>
+
+                <!-- Location 3 -->
+                <div class="space-y-8 text-left font-sans">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center text-gold font-sans font-sans"><i data-lucide="map-pin" class="w-6 h-6"></i></div>
+                        <h5 class="text-gold font-bold typography-h3 uppercase tracking-widest" style="font-size: 24px !important;">San Jose</h5>
+                    </div>
+                    <div class="rounded-xl h-48 bg-gray-900 flex items-center justify-center italic text-gray-500 border border-white/5 typography-small font-sans">Map: San Jose Central Office</div>
+                    <div class="space-y-3 font-light font-sans font-sans font-sans">
+                        <p class="text-gray-200 font-bold uppercase tracking-widest typography-label">1600 The Alameda #202, San Jose, CA 95126</p>
+                        <p class="text-gray-400 font-light leading-relaxed typography-small">Serving Santa Clara and San Mateo Counties.</p>
+                        <p class="text-gold font-bold text-lg pt-serif-title font-bold font-bold font-bold">P: 408-809-0331</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom Mapped exactly to required typography label and small -->
+            <div class="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-10">
+                <div class="flex items-center space-x-4">
+                    <div class="w-10 h-10 flex items-center justify-center font-bold">
+                        <img src="https://i.ibb.co/rGPWQRPx/72cef0c0-2a3b-409a-8672-04739b0855d7-logo.png" alt="Pernik Law Logo" style="width: 65px !important;height: auto !important;max-width: none !important;min-width: 65px !important;display: block;position: relative;z-index: 50;">  
+                    </div>
+                    <span class="text-2xl pt-serif-title tracking-widest text-white uppercase leading-none font-bold font-serif font-bold">Pernik <span class="text-gold">Law</span><span class="text-white font-sans" style="font-size: 12px;"> APC</span></span>
+                </div>
+                <div class="flex flex-wrap justify-center gap-10 text-gray-400 typography-label font-sans font-sans">
+                    <a href="#" class="hover:text-gold transition">Home</a>
+                    <a href="#" class="hover:text-gold transition">About</a>
+                    <a href="#" class="hover:text-gold transition font-sans">Practice</a>
+                    <a href="#" class="hover:text-gold transition">Team</a>
+                </div>
+                <p class="text-gray-600 uppercase tracking-widest typography-label font-sans" style="font-size: 11px !important;">&copy; 2026 Pernik Law APC • California Criminal Defense Firm • Serving South Bay & Central Coast</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- INTERACTIVE YOUTUBE VIDEO POPUP MODAL -->
+    <div id="videoModal" class="fixed inset-0 z-[100] flex items-center justify-center bg-black/85 hidden transition-all duration-300 font-sans">
+        <div class="relative w-full max-w-4xl mx-4 bg-navy rounded-2xl overflow-hidden shadow-2xl border border-gold/40">
+            <!-- Modal Close button -->
+            <button onclick="closeVideoModal()" class="absolute top-4 right-4 text-white hover:text-gold text-3xl z-[110] transition-colors focus:outline-none animate-bounce font-sans">
+                <i class="fa-solid fa-circle-xmark font-sans"></i>
+            </button>
+            <div class="aspect-video w-full animate-fade-in-up">
+                <iframe id="modalIframe" class="w-full h-full font-sans" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Initialize Lucide
+        lucide.createIcons();
+
+        // Video Modal triggers
+        function openVideoModal(videoUrl) {
+            const modal = document.getElementById('videoModal');
+            const iframe = document.getElementById('modalIframe');
+            if (iframe) {
+                iframe.src = videoUrl;
+            }
+            if (modal) {
+                modal.classList.remove('hidden');
+                document.body.style.overflow = 'hidden'; // Lock background scroll
+            }
+        }
+
+        // Close Video Modal immediately
+        function closeVideoModal() {
+            const modal = document.getElementById('videoModal');
+            const iframe = document.getElementById('modalIframe');
+            if (iframe) {
+                iframe.src = ""; // Stop video playback instantly
+            }
+            if (modal) {
+                modal.classList.add('hidden');
+                document.body.style.overflow = ''; // Unlock background scroll
+            }
+        }
+
+        // Mobile Menu Toggle Script Integration
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenuDrawer = document.getElementById('mobileMenuDrawer');
+        const hamburgerIcon = document.getElementById('hamburgerIcon');
+
+        if (mobileMenuBtn && mobileMenuDrawer && hamburgerIcon) {
+            mobileMenuBtn.addEventListener('click', () => {
+                const isOpen = !mobileMenuDrawer.classList.contains('hidden');
+                if (isOpen) {
+                    mobileMenuDrawer.classList.add('hidden');
+                    hamburgerIcon.classList.replace('fa-xmark', 'fa-bars');
+                } else {
+                    mobileMenuDrawer.classList.remove('hidden');
+                    hamburgerIcon.classList.replace('fa-bars', 'fa-xmark');
+                }
+            });
+        }
+
+        // Mobile Accordion toggle system for submenus
+        function toggleMobileAccordion(id) {
+            const el = document.getElementById(id);
+            const chevron = document.getElementById(id + '-chevron');
+            if (el) {
+                const isHidden = el.classList.contains('hidden');
+                if (isHidden) {
+                    el.classList.remove('hidden');
+                    if (chevron) chevron.style.transform = 'rotate(180deg)';
+                } else {
+                    el.classList.add('hidden');
+                    if (chevron) chevron.style.transform = 'rotate(0deg)';
+                }
+            }
+        }
+
+        // Practice Areas Grid (17 AREAS) styled with requested typography-small (15px / 400)
+        const finalPareas3 = ["Child Abuse & Neglect", "Defending Veterans", "Domestic Violence", "Drug Crimes", "DUI", "Expungements", "Federal Crimes", "Homicides", "Juvenile Crimes", "Mental Illness & Substance Abuse Defense", "Probation Violation", "Property Crimes", "Serious & Violent Felonies", "Sex Crimes", "Theft Crimes", "Violent Crimes", "White Collar Crimes"];
+        
+        // Populate static grid container for desktops
+        const desktopGrid = document.getElementById('practice-areas-grid');
+        if (desktopGrid) {
+            desktopGrid.innerHTML = finalPareas3.map(p => `
+                <a href="#" class="p-5 border border-gray-100 bg-offWhite rounded flex items-center justify-between hover:border-gold transition group shadow-sm text-left font-sans">
+                    <span class="font-sans text-navy group-hover:text-gold uppercase tracking-tight font-semibold typography-small">${p}</span>
+                    <i data-lucide="chevron-right" class="w-4 h-4 text-gold opacity-0 group-hover:opacity-100 transition animate-pulse-slow"></i>
+                </a>
+            `).join('');
+        }
+
+        // Chunk arrays specifically into sets of 4 items for mobile swiping decks
+        const mobileSliderContainer = document.getElementById('mobile-practice-areas-slider');
+        if (mobileSliderContainer) {
+            const chunkSize = 4;
+            const chunkedArrays = [];
+            for (let i = 0; i < finalPareas3.length; i += chunkSize) {
+                chunkedArrays.push(finalPareas3.slice(i, i + chunkSize));
+            }
+
+            // Create horizontal slider chunks structured as a 2x2 grid inside each individual slide
+            mobileSliderContainer.innerHTML = chunkedArrays.map(chunk => `
+                <div class="swiper-slide w-full font-sans">
+                    <div class="grid grid-cols-2 gap-4 text-left font-sans">
+                        ${chunk.map(p => `
+                            <a href="#" class="p-4 border border-gray-100 bg-offWhite rounded flex items-center justify-between hover:border-gold transition group shadow-sm text-left">
+                                <span class="font-sans text-navy group-hover:text-gold uppercase tracking-tight font-semibold typography-small text-[11px] leading-tight">${p}</span>
+                                <i data-lucide="chevron-right" class="w-3 h-3 text-gold opacity-0 group-hover:opacity-100 transition shrink-0"></i>
+                            </a>
+                        `).join('')}
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        lucide.createIcons();
+
+        function switchTab(step) {
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+            document.querySelectorAll('.method-tab').forEach(el => el.classList.remove('active'));
+            document.getElementById('content' + step).classList.remove('hidden');
+            document.getElementById('tab' + step).classList.add('active');
+        }
+
+        // toggleWhyBox Function
+        function toggleWhyBox(index) {
+            const box = document.getElementById('why-box-' + index);
+            const content = box.querySelector('.why-box-content');
+            const chevron = document.getElementById('why-chevron-' + index);
+            
+            const isHidden = content.classList.contains('hidden');
+            
+            if (isHidden) {
+                content.classList.remove('hidden');
+                if (chevron) chevron.style.transform = 'rotate(180deg)';
+            } else {
+                content.classList.add('hidden');
+                if (chevron) chevron.style.transform = 'rotate(0deg)';
+            }
+        }
+
+        function toggleFaq(index) {
+            const ans = document.getElementById('faq-ans-' + index);
+            const icon = document.getElementById('faq-icon-' + index);
+            const isHidden = ans.classList.contains('hidden');
+            if(isHidden) {
+                ans.classList.remove('hidden');
+                icon.classList.replace('fa-chevron-down', 'fa-chevron-up');
+            } else {
+                ans.classList.add('hidden');
+                icon.classList.replace('fa-chevron-up', 'fa-chevron-down');
+            }
+        }
+
+        // toggleMoreFaqs
+        function toggleMoreFaqs() {
+            const more = document.getElementById('more-faqs');
+            const btn = document.getElementById('show-faq-btn');
+            if(more.classList.contains('hidden')) {
+                more.classList.remove('hidden');
+                btn.innerText = "Show Fewer Questions";
+            } else {
+                more.classList.add('hidden');
+                btn.innerText = "Show More Questions";
+            }
+        }
+
+        // Count Up
+        function animateValue(obj, start, end, duration) {
+            let startTimestamp = null;
+            const step = (timestamp) => {
+                if (!startTimestamp) startTimestamp = timestamp;
+                const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+                obj.innerHTML = Math.floor(progress * (end - start) + start).toLocaleString();
+                if (progress < 1) window.requestAnimationFrame(step);
+            };
+            window.requestAnimationFrame(step);
+        }
+        
+        // Correctly set up observer for #stats-section and .stat-counter elements
+        const statObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.querySelectorAll('.stat-counter').forEach(c => animateValue(c, 0, parseInt(c.dataset.target), 2000));
+                    statObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.5 });
+        
+        const statsEl = document.getElementById('stats-section');
+        if (statsEl) {
+            statObserver.observe(statsEl);
+        }
+
+        // Initialize Responsive Mobile Swipe Touch Swipers with fallback breakpoints
+        const mobileCardsSwiper = new Swiper('.mobileCardsSwiper', {
+            slidesPerView: 1.15,
+            spaceBetween: 20,
+            pagination: { el: '.swiper-pagination', clickable: true },
+            breakpoints: {
+                768: {
+                    enabled: false,
+                    slidesPerView: 3,
+                    spaceBetween: 0
+                }
+            }
+        });
+
+        // Instantiate mobile swipe for Pernik Method Step cards
+        const methodSwiper = new Swiper('.methodSwiper', {
+            slidesPerView: 1.15,
+            spaceBetween: 20,
+            pagination: { el: '.method-pagination', clickable: true },
+            breakpoints: {
+                1024: {
+                    enabled: false,
+                    slidesPerView: 3,
+                    spaceBetween: 0
+                }
+            }
+        });
+
+        // Initialize Locations Horizontal Touch Swipe for Mobile Screen formats
+        const locationsSwiper = new Swiper('.locationsSwiper', {
+            slidesPerView: 1.15,
+            spaceBetween: 20,
+            pagination: { el: '.swiper-pagination', clickable: true },
+            breakpoints: {
+                1024: {
+                    enabled: false,
+                    slidesPerView: 2,
+                    spaceBetween: 0
+                }
+            }
+        });
+
+        const authoritySwiper = new Swiper('.authoritySwiper', {
+            slidesPerView: 1.15,
+            spaceBetween: 20,
+            pagination: { el: '.swiper-pagination', clickable: true },
+            breakpoints: {
+                768: {
+                    enabled: false,
+                    slidesPerView: 2,
+                    spaceBetween: 0
+                }
+            }
+        });
+
+        const practiceAreaSwiper = new Swiper('.practiceAreaSwiper', {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: { el: '.swiper-pagination', clickable: true }
+        });
+
+        // Swiper Initializers
+        const teamSwiper = new Swiper('.teamSwiper', { 
+            slidesPerView: 1, 
+            spaceBetween: 30, 
+            pagination: { el: ".swiper-pagination", clickable: true }, 
+            navigation: { nextEl: ".team-next", prevEl: ".team-prev" },
+            breakpoints: { 768: { slidesPerView: 2 }, 1024: { slidesPerView: 3 } }
+        });
+
+        // Auto-playing swiper carousel config for Workspace Gallery with layout observers
+        const teamGallerySwiper = new Swiper('.teamGallerySwiper', { 
+            slidesPerView: 1, 
+            spaceBetween: 10,
+            loop: true, 
+            observer: true,
+            observeParents: true,
+            autoplay: { 
+                delay: 3000, 
+                disableOnInteraction: false,
+                pauseOnMouseEnter: false
+            }, 
+            pagination: { el: ".gallery-pagination", clickable: true } 
+        });
+
+        // Force Swiper autoplay to start running instantly
+        if (teamGallerySwiper && teamGallerySwiper.autoplay) {
+            teamGallerySwiper.autoplay.start();
+        }
+
+        const caseResultsSwiper = new Swiper('.caseResultsSwiper', { 
+            slidesPerView: 1, 
+            spaceBetween: 30, 
+            pagination: { el: ".swiper-pagination", clickable: true }, 
+            navigation: { nextEl: ".case-next", prevEl: ".case-prev" },
+            breakpoints: { 768: { slidesPerView: 2 }, 1024: { slidesPerView: 3 } }
+        });
+
+        // Google reviews multiple cards slider with auto slider configuration
+        const testimonialSwiper = new Swiper('.testimonialSwiper', { 
+            slidesPerView: 1, 
+            spaceBetween: 30, 
+            loop: true, 
+            autoplay: { delay: 4000, disableOnInteraction: false }, 
+            pagination: { el: ".swiper-pagination", clickable: true },
+            breakpoints: {
+                768: { slidesPerView: 2 },
+                1024: { slidesPerView: 3 }
+            }
+        });
+
+        // Initialize Legal Education Hub Swiper specifically on mobile screens
+        const legalHubSwiper = new Swiper('.legalHubSwiper', {
+            slidesPerView: 1.15,
+            spaceBetween: 20,
+            pagination: { el: '.legal-hub-pagination', clickable: true },
+            breakpoints: {
+                1024: {
+                    enabled: false
+                }
+            }
+        });
+
+        // Scroll Reveal
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('section').forEach(s => { s.classList.add('scroll-reveal'); revealObserver.observe(s); });
+    </script>
+</body>
+</html>
